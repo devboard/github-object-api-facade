@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "devboard/github-api-facade",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-api-facade.git",
-                "reference": "1f5aaf964f9893860a109dd8dc269e524016450c"
+                "reference": "5128a837f02d5f99bacfd07ef5e159123f9f098e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/1f5aaf964f9893860a109dd8dc269e524016450c",
-                "reference": "1f5aaf964f9893860a109dd8dc269e524016450c",
+                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/5128a837f02d5f99bacfd07ef5e159123f9f098e",
+                "reference": "5128a837f02d5f99bacfd07ef5e159123f9f098e",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                 "proprietary"
             ],
             "description": "Github API facade",
-            "time": "2016-02-11 20:36:47"
+            "time": "2016-02-13 16:51:24"
         },
         {
             "name": "devboard/github-core",
