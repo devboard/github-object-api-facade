@@ -25,7 +25,7 @@ class SimpleRepoFacadeTest extends \PHPUnit_Framework_TestCase
 
         foreach ($milestones as $milestone) {
             self::assertInstanceOf(
-                'DevBoardLib\GithubObjectApiFacade\Repo\Milestone\GithubMilestoneSource',
+                'DevBoardLib\GithubCore\Milestone\GithubMilestoneSource',
                 $milestone
             );
         }
@@ -48,7 +48,7 @@ class SimpleRepoFacadeTest extends \PHPUnit_Framework_TestCase
 
         foreach ($issues as $issue) {
             self::assertInstanceOf(
-                'DevBoardLib\GithubObjectApiFacade\Repo\Issue\GithubIssueSource',
+                'DevBoardLib\GithubCore\Issue\GithubIssueSource',
                 $issue
             );
         }

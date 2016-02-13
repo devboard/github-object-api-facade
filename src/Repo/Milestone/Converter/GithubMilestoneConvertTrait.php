@@ -3,8 +3,8 @@ namespace DevBoardLib\GithubObjectApiFacade\Repo\Milestone\Converter;
 
 use DateTime;
 use DevBoardLib\GithubCore\Milestone\GithubMilestoneId;
+use DevBoardLib\GithubCore\Milestone\GithubMilestoneSource;
 use DevBoardLib\GithubCore\Milestone\State\GithubMilestoneStateFactory;
-use DevBoardLib\GithubObjectApiFacade\Repo\Milestone\GithubMilestoneSource;
 
 trait GithubMilestoneConvertTrait
 {

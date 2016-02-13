@@ -2,7 +2,7 @@
 namespace DevBoardLib\GithubObjectApiFacade\User\Converter;
 
 use DevBoardLib\GithubCore\User\GithubUserId;
-use DevBoardLib\GithubObjectApiFacade\User\GithubUserSource;
+use DevBoardLib\GithubCore\User\GithubUserSource;
 
 trait GithubUserConvertTrait
 {

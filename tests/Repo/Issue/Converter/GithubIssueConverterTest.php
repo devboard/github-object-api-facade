@@ -19,7 +19,7 @@ class GithubIssueConverterTest extends \PHPUnit_Framework_TestCase
         $target = new GithubIssueConverter($repo);
 
         self::assertInstanceOf(
-            'DevBoardLib\GithubObjectApiFacade\Repo\Issue\GithubIssueSource',
+            'DevBoardLib\GithubCore\Issue\GithubIssueSource',
             $target->convert($issueData)
         );
     }
