@@ -3,8 +3,8 @@ namespace DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter;
 
 use DateTime;
 use DevBoardLib\GithubCore\Issue\GithubIssueId;
+use DevBoardLib\GithubCore\Issue\GithubIssueSource;
 use DevBoardLib\GithubCore\Issue\State\GithubIssueStateFactory;
-use DevBoardLib\GithubObjectApiFacade\Repo\Issue\GithubIssueSource;
 
 trait GithubIssueConvertTrait
 {

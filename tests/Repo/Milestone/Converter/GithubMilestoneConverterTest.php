@@ -19,7 +19,7 @@ class GithubMilestoneConverterTest extends \PHPUnit_Framework_TestCase
         $target = new GithubMilestoneConverter($repo);
 
         self::assertInstanceOf(
-            'DevBoardLib\GithubObjectApiFacade\Repo\Milestone\GithubMilestoneSource',
+            'DevBoardLib\GithubCore\Milestone\GithubMilestoneSource',
             $target->convert($milestoneData)
         );
     }

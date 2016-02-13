@@ -26,7 +26,7 @@ class GithubIssueConverterSpec extends ObjectBehavior
     public function it_returns_github_issue_source_as_result($arrayData)
     {
         $this->convert($arrayData)
-            ->shouldReturnAnInstanceOf('DevBoardLib\GithubObjectApiFacade\Repo\Issue\GithubIssueSource');
+            ->shouldReturnAnInstanceOf('DevBoardLib\GithubCore\Issue\GithubIssueSource');
     }
 
     /**
@@ -123,7 +123,7 @@ class GithubIssueConverterSpec extends ObjectBehavior
         $result = $this->convert($arrayData);
 
         $result->getCreatedByUser()
-            ->shouldBeAnInstanceOf('DevBoardLib\GithubObjectApiFacade\User\GithubUserSource');
+            ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserSource');
     }
 
     /**
@@ -145,7 +145,7 @@ class GithubIssueConverterSpec extends ObjectBehavior
         $result = $this->convert($arrayData);
 
         $result->getAssignedToUser()
-            ->shouldBeAnInstanceOf('DevBoardLib\GithubObjectApiFacade\User\GithubUserSource');
+            ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserSource');
     }
 
     /**
@@ -178,7 +178,7 @@ class GithubIssueConverterSpec extends ObjectBehavior
         $result->getMilestoneId()
             ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\Milestone\GithubMilestoneId');
         $result->getMilestone()
-            ->shouldBeAnInstanceOf('DevBoardLib\GithubObjectApiFacade\Repo\Milestone\GithubMilestoneSource');
+            ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\Milestone\GithubMilestoneSource');
     }
 
     /**

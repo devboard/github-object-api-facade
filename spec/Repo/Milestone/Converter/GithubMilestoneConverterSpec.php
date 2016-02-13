@@ -26,7 +26,7 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
     public function it_returns_github_milestone_source_as_result($arrayData)
     {
         $this->convert($arrayData)
-            ->shouldReturnAnInstanceOf('DevBoardLib\GithubObjectApiFacade\Repo\Milestone\GithubMilestoneSource');
+            ->shouldReturnAnInstanceOf('DevBoardLib\GithubCore\Milestone\GithubMilestoneSource');
     }
 
     /**
@@ -138,7 +138,7 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
         $result = $this->convert($arrayData);
 
         $result->getCreatedByUser()
-            ->shouldBeAnInstanceOf('DevBoardLib\GithubObjectApiFacade\User\GithubUserSource');
+            ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserSource');
     }
 
     /**
