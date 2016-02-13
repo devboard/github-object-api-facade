@@ -1,0 +1,31 @@
+<?php
+namespace DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter;
+
+use DateTime;
+use DevBoardLib\GithubCore\Issue\GithubIssueId;
+use DevBoardLib\GithubCore\Issue\State\GithubIssueStateFactory;
+use DevBoardLib\GithubObjectApiFacade\Repo\Issue\GithubIssueSource;
+
+trait GithubIssueConvertTrait
+{
+    protected function convertIssue($data)
+    {
+        return new GithubIssueSource(
+            new GithubIssueId($data['id']),
+            $this->githubRepo,
+            $data['number'],
+            GithubIssueStateFactory::create($data['state']),
+            $data['title'],
+            $data['body'],
+            $this->getUser($data['user']),
+            $this->getUserIfExists($data['assignee']),
+            $this->getMilestoneIfExists($data['milestone']),
+            $data['comments'],
+
+            new DateTime($data['created_at']),
+            new DateTime($data['updated_at']),
+            $this->getDateIfExists($data['closed_at'])
+
+        );
+    }
+}
