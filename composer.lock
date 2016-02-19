@@ -62,16 +62,16 @@
         },
         {
             "name": "devboard/github-core",
-            "version": "0.1.9",
+            "version": "0.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-core.git",
-                "reference": "d877cef245916990893f6d7bd0c9e0dafab03156"
+                "reference": "0315ef171e03f836fadccd466f8c49ce74dae099"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-core/zipball/d877cef245916990893f6d7bd0c9e0dafab03156",
-                "reference": "d877cef245916990893f6d7bd0c9e0dafab03156",
+                "url": "https://api.github.com/repos/devboard/github-core/zipball/0315ef171e03f836fadccd466f8c49ce74dae099",
+                "reference": "0315ef171e03f836fadccd466f8c49ce74dae099",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
                 "proprietary"
             ],
             "description": "Github Core",
-            "time": "2016-02-19 14:35:36"
+            "time": "2016-02-19 14:42:39"
         },
         {
             "name": "guzzle/guzzle",
