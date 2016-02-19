@@ -141,7 +141,6 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
             ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserSource');
     }
 
-
     /**
      * @dataProvider provideMilestonesWithOutCreator
      */
@@ -161,7 +160,6 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
 
         $result->getCreatedByUser()->shouldReturn(null);
     }
-
 
     /**
      * @dataProvider provideAllMilestones
