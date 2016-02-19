@@ -17,7 +17,7 @@ trait GithubMilestoneConvertTrait
             GithubMilestoneStateFactory::create($data['state']),
             $data['title'],
             $data['description'],
-            $this->getUser($data['creator']),
+            $this->getUserIfExists($data['creator']),
             $data['open_issues'],
             $data['closed_issues'],
             $this->getDateIfExists($data['due_on']),

@@ -120,7 +120,7 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
     }
 
     /**
-     * @dataProvider provideAllMilestones
+     * @dataProvider provideMilestonesWithCreator
      */
     public function it_will_have_user_id_of_creator_in_converted_result($arrayData)
     {
@@ -131,7 +131,7 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
     }
 
     /**
-     * @dataProvider provideAllMilestones
+     * @dataProvider provideMilestonesWithCreator
      */
     public function it_will_have_creator_in_converted_result($arrayData)
     {
@@ -139,6 +139,26 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
 
         $result->getCreatedByUser()
             ->shouldBeAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserSource');
+    }
+
+    /**
+     * @dataProvider provideMilestonesWithOutCreator
+     */
+    public function it_will_have_null_for_user_id_of_creator_in_converted_result($arrayData)
+    {
+        $result = $this->convert($arrayData);
+
+        $result->getCreatedByUserId()->shouldReturn(null);
+    }
+
+    /**
+     * @dataProvider provideMilestonesWithOutCreator
+     */
+    public function it_will_have_null_for_creator_in_converted_result($arrayData)
+    {
+        $result = $this->convert($arrayData);
+
+        $result->getCreatedByUser()->shouldReturn(null);
     }
 
     /**
@@ -283,6 +303,32 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
 
         foreach ($this->getDataProvider()->getAllMilestones() as $item) {
             if (null === $item['due_on']) {
+                $testData[] = [$item];
+            }
+        }
+
+        return $testData;
+    }
+
+    public function provideMilestonesWithCreator()
+    {
+        $testData = [];
+
+        foreach ($this->getDataProvider()->getAllMilestones() as $item) {
+            if (null !== $item['creator']) {
+                $testData[] = [$item];
+            }
+        }
+
+        return $testData;
+    }
+
+    public function provideMilestonesWithOutCreator()
+    {
+        $testData = [];
+
+        foreach ($this->getDataProvider()->getAllMilestones() as $item) {
+            if (null === $item['creator']) {
                 $testData[] = [$item];
             }
         }
