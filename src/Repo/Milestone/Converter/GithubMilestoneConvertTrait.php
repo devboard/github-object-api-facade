@@ -6,8 +6,18 @@ use DevBoardLib\GithubCore\Milestone\GithubMilestoneId;
 use DevBoardLib\GithubCore\Milestone\GithubMilestoneSource;
 use DevBoardLib\GithubCore\Milestone\State\GithubMilestoneStateFactory;
 
+/**
+ * Class GithubMilestoneConvertTrait.
+ */
 trait GithubMilestoneConvertTrait
 {
+    /**
+     * @param $data
+     *
+     * @throws \Exception
+     *
+     * @return GithubMilestoneSource
+     */
     protected function convertMilestone($data)
     {
         $milestone = new GithubMilestoneSource(
@@ -30,6 +40,11 @@ trait GithubMilestoneConvertTrait
         return $milestone;
     }
 
+    /**
+     * @param $data
+     *
+     * @return GithubMilestoneSource|null
+     */
     protected function getMilestoneIfExists($data)
     {
         if (empty($data)) {

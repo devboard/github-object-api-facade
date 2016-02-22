@@ -1,29 +1,29 @@
 <?php
-namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter;
+namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
-use DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter\GithubIssueConverter;
+use DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter\GithubRepoConverter;
 use Mockery as m;
 use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
 
 /**
- * Class GithubIssueConverterTest.
+ * Class GithubRepoConverterTest.
  */
-class GithubIssueConverterTest extends \PHPUnit_Framework_TestCase
+class GithubRepoConverterTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider  provideConversionData
      *
-     * @param array $issueData
+     * @param $repoData
      */
-    public function testConvert(array $issueData)
+    public function testConvert($repoData)
     {
         $repo = $this->provideTestRepo();
 
-        $target = new GithubIssueConverter($repo);
+        $target = new GithubRepoConverter($repo);
 
         self::assertInstanceOf(
-            'DevBoardLib\GithubCore\Issue\GithubIssueSource',
-            $target->convert($issueData)
+            'DevBoardLib\GithubCore\Repo\GithubRepoSource',
+            $target->convert($repoData)
         );
     }
 
@@ -32,13 +32,9 @@ class GithubIssueConverterTest extends \PHPUnit_Framework_TestCase
      */
     public function provideConversionData()
     {
-        $testData = [];
-
-        foreach ($this->getDataProvider()->getAllIssues() as $item) {
-            $testData[] = [$item];
-        }
-
-        return $testData;
+        return [
+            $this->getDataProvider()->getRepoDetails(),
+        ];
     }
 
     /**

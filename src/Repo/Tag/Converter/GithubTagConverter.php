@@ -1,18 +1,18 @@
 <?php
-namespace DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter;
+namespace DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter;
 
 use DateTime;
 use DevBoardLib\GithubCore\Repo\GithubRepo;
-use DevBoardLib\GithubObjectApiFacade\Repo\Milestone\Converter\GithubMilestoneConvertTrait;
+use DevBoardLib\GithubObjectApiFacade\Repo\Commit\Converter\GithubCommitConvertTrait;
 use DevBoardLib\GithubObjectApiFacade\User\Converter\GithubUserConvertTrait;
 
 /**
- * Class GithubIssueConverter.
+ * Class GithubTagConverter.
  */
-class GithubIssueConverter
+class GithubTagConverter
 {
-    use GithubIssueConvertTrait;
-    use GithubMilestoneConvertTrait;
+    use GithubTagConvertTrait;
+    use GithubCommitConvertTrait;
     use GithubUserConvertTrait;
     private $githubRepo;
 
@@ -29,11 +29,11 @@ class GithubIssueConverter
     /**
      * @param $data
      *
-     * @return \DevBoardLib\GithubCore\Issue\GithubIssueSource
+     * @return \DevBoardLib\GithubCore\Tag\GithubTagSource
      */
     public function convert($data)
     {
-        return $this->convertIssue($data);
+        return $this->convertTag($data);
     }
 
     /**

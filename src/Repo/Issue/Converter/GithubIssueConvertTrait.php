@@ -6,8 +6,18 @@ use DevBoardLib\GithubCore\Issue\GithubIssueId;
 use DevBoardLib\GithubCore\Issue\GithubIssueSource;
 use DevBoardLib\GithubCore\Issue\State\GithubIssueStateFactory;
 
+/**
+ * Class GithubIssueConvertTrait.
+ */
 trait GithubIssueConvertTrait
 {
+    /**
+     * @param $data
+     *
+     * @throws \Exception
+     *
+     * @return GithubIssueSource
+     */
     protected function convertIssue($data)
     {
         return new GithubIssueSource(
