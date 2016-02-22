@@ -5,6 +5,9 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Milestone\Converter\GithubMilestoneCo
 use Mockery as m;
 use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
 
+/**
+ * Class GithubMilestoneConverterTest.
+ */
 class GithubMilestoneConverterTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -24,6 +27,9 @@ class GithubMilestoneConverterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * @return array
+     */
     public function provideConversionData()
     {
         $testData = [];
@@ -35,11 +41,17 @@ class GithubMilestoneConverterTest extends \PHPUnit_Framework_TestCase
         return $testData;
     }
 
+    /**
+     * @return m\MockInterface
+     */
     protected function provideTestRepo()
     {
         return m::mock('DevBoardLib\GithubCore\Repo\GithubRepo');
     }
 
+    /**
+     * @return SampleDataProvider
+     */
     protected function getDataProvider()
     {
         return new SampleDataProvider();

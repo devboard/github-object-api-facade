@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25a333e4a81d941d3ca1dbd10dc654e8",
-    "content-hash": "80caffaf29873b6d37c8c8f14f43d37c",
+    "hash": "5217b281daaa67360f82f62575c260ac",
+    "content-hash": "db19a50f8bf1900eb3cb59bff1e79770",
     "packages": [
         {
             "name": "devboard/github-api-facade",
-            "version": "0.1.5",
+            "version": "dev-core-structures",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-api-facade.git",
-                "reference": "99023977c6b94752a3ed6800428cea7c1d16ec79"
+                "reference": "dbb0886d9102864fd8f1abde79dd3610bee2ad8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/99023977c6b94752a3ed6800428cea7c1d16ec79",
-                "reference": "99023977c6b94752a3ed6800428cea7c1d16ec79",
+                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/dbb0886d9102864fd8f1abde79dd3610bee2ad8e",
+                "reference": "dbb0886d9102864fd8f1abde79dd3610bee2ad8e",
                 "shasum": ""
             },
             "require": {
-                "devboard/github-core": "^0.1",
+                "devboard/github-core": "dev-core-structures",
                 "knplabs/github-api": "~1.4",
                 "php": ">=5.3.9"
             },
@@ -58,20 +58,20 @@
                 "proprietary"
             ],
             "description": "Github API facade",
-            "time": "2016-02-21 15:09:43"
+            "time": "2016-02-21 23:50:00"
         },
         {
             "name": "devboard/github-core",
-            "version": "0.1.12",
+            "version": "dev-core-structures",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-core.git",
-                "reference": "5da4b2202affad4b00923d8ba1e3de6b35f8d35e"
+                "reference": "fd10c62bc59c648e23d71b58d518049bd4c74794"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-core/zipball/5da4b2202affad4b00923d8ba1e3de6b35f8d35e",
-                "reference": "5da4b2202affad4b00923d8ba1e3de6b35f8d35e",
+                "url": "https://api.github.com/repos/devboard/github-core/zipball/fd10c62bc59c648e23d71b58d518049bd4c74794",
+                "reference": "fd10c62bc59c648e23d71b58d518049bd4c74794",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
                 "proprietary"
             ],
             "description": "Github Core",
-            "time": "2016-02-21 11:15:59"
+            "time": "2016-02-21 23:40:02"
         },
         {
             "name": "guzzle/guzzle",
@@ -3546,7 +3546,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "devboard/github-core": 20,
+        "devboard/github-api-facade": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -13,7 +13,8 @@
     "require": {
         "php": ">=5.3.9",
         "knplabs/github-api": "~1.4",
-        "devboard/github-api-facade": "^0.1"
+        "devboard/github-core": "dev-core-structures",
+        "devboard/github-api-facade": "dev-core-structures"
     },
     "require-dev": {
         "phpunit/phpunit":                          "~4",
