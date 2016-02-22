@@ -5,6 +5,9 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter\GithubIssueConverter;
 use Mockery as m;
 use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
 
+/**
+ * Class GithubIssueConverterTest.
+ */
 class GithubIssueConverterTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -24,6 +27,9 @@ class GithubIssueConverterTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * @return array
+     */
     public function provideConversionData()
     {
         $testData = [];
@@ -35,11 +41,17 @@ class GithubIssueConverterTest extends \PHPUnit_Framework_TestCase
         return $testData;
     }
 
+    /**
+     * @return m\MockInterface
+     */
     protected function provideTestRepo()
     {
         return m::mock('DevBoardLib\GithubCore\Repo\GithubRepo');
     }
 
+    /**
+     * @return SampleDataProvider
+     */
     protected function getDataProvider()
     {
         return new SampleDataProvider();

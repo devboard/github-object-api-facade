@@ -4,6 +4,9 @@ namespace tests\DevBoardLib\GithubObjectApiFacade\Repo;
 use DevBoardLib\GithubObjectApiFacade\Repo\RepoFacadeFactory;
 use Mockery as m;
 
+/**
+ * Class RepoFacadeFactoryTest.
+ */
 class RepoFacadeFactoryTest extends \PHPUnit_Framework_TestCase
 {
     public function testCreate()

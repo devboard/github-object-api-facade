@@ -5,6 +5,9 @@ use DateTime;
 use DevBoardLib\GithubCore\Repo\GithubRepo;
 use DevBoardLib\GithubObjectApiFacade\User\Converter\GithubUserConvertTrait;
 
+/**
+ * Class GithubMilestoneConverter.
+ */
 class GithubMilestoneConverter
 {
     use GithubMilestoneConvertTrait;
@@ -21,11 +24,21 @@ class GithubMilestoneConverter
         $this->githubRepo = $githubRepo;
     }
 
+    /**
+     * @param $data
+     *
+     * @return \DevBoardLib\GithubCore\Milestone\GithubMilestoneSource
+     */
     public function convert($data)
     {
         return $this->convertMilestone($data);
     }
 
+    /**
+     * @param $dateString
+     *
+     * @return DateTime|null
+     */
     protected function getDateIfExists($dateString)
     {
         if (empty($dateString)) {

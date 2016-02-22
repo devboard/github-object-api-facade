@@ -4,8 +4,16 @@ namespace DevBoardLib\GithubObjectApiFacade\User\Converter;
 use DevBoardLib\GithubCore\User\GithubUserId;
 use DevBoardLib\GithubCore\User\GithubUserSource;
 
+/**
+ * Class GithubUserConvertTrait.
+ */
 trait GithubUserConvertTrait
 {
+    /**
+     * @param $data
+     *
+     * @return GithubUserSource
+     */
     protected function getUser($data)
     {
         return new GithubUserSource(
@@ -18,6 +26,11 @@ trait GithubUserConvertTrait
         );
     }
 
+    /**
+     * @param $data
+     *
+     * @return GithubUserSource|null
+     */
     protected function getUserIfExists($data)
     {
         if (empty($data)) {
