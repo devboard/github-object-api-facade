@@ -1,4 +1,5 @@
 <?php
+
 namespace DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
 use DateTime;

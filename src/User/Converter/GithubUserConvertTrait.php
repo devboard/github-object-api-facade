@@ -1,4 +1,5 @@
 <?php
+
 namespace DevBoardLib\GithubObjectApiFacade\User\Converter;
 
 use DevBoardLib\GithubCore\User\GithubUserId;

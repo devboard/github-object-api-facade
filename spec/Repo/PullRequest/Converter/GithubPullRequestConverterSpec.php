@@ -1,4 +1,5 @@
 <?php
+
 namespace spec\DevBoardLib\GithubObjectApiFacade\Repo\PullRequest\Converter;
 
 use DevBoardLib\GithubCore\Repo\GithubRepo;

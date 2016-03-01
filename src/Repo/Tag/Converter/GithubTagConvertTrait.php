@@ -1,4 +1,5 @@
 <?php
+
 namespace DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter;
 
 use DevBoardLib\GithubCore\Tag\GithubTagId;
