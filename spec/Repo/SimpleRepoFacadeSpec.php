@@ -1,4 +1,5 @@
 <?php
+
 namespace spec\DevBoardLib\GithubObjectApiFacade\Repo;
 
 use DevBoardLib\GithubApiFacade\Repo\RepoFacade;

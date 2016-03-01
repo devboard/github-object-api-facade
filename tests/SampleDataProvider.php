@@ -1,4 +1,5 @@
 <?php
+
 namespace tests\DevBoardLib\GithubObjectApiFacade;
 
 /**

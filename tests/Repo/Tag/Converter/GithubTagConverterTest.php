@@ -1,4 +1,5 @@
 <?php
+
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter\GithubTagConverter;

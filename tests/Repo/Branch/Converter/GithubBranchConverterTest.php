@@ -1,4 +1,5 @@
 <?php
+
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Branch\Converter;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\Branch\Converter\GithubBranchConverter;

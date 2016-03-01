@@ -1,4 +1,5 @@
 <?php
+
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Commit\Converter;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\Commit\Converter\GithubCommitConverter;

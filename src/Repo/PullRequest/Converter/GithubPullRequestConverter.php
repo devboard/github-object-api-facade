@@ -1,4 +1,5 @@
 <?php
+
 namespace DevBoardLib\GithubObjectApiFacade\Repo\PullRequest\Converter;
 
 use DateTime;

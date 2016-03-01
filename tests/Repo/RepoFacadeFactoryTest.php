@@ -1,4 +1,5 @@
 <?php
+
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\RepoFacadeFactory;
