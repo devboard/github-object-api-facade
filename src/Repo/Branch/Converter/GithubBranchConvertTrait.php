@@ -11,11 +11,11 @@ use DevBoardLib\GithubCore\Branch\GithubBranchSource;
 trait GithubBranchConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubBranchSource
      */
-    protected function convertBranch($data)
+    protected function convertBranch(array $data)
     {
         return new GithubBranchSource(
             new GithubBranchId($this->githubRepo->getId(), $data['name']),

@@ -16,13 +16,13 @@ use DevBoardLib\GithubCore\External\ExternalServiceId;
 trait GithubCommitStatusConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @throws \Exception
      *
      * @return GithubCommitStatusSource
      */
-    protected function convertCommitStatus($data)
+    protected function convertCommitStatus(array $data)
     {
         return new GithubCommitStatusSource(
             new GithubCommitStatusId($data['id']),

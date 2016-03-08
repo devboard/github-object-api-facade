@@ -49,17 +49,17 @@ class SimpleRepoFacadeSpec extends ObjectBehavior
 
     public function it_will_return_all_repo_milestones($repoFacade, $githubMilestoneConverter)
     {
-        $repoFacade->fetchAllMilestones()->willReturn(['data']);
+        $repoFacade->fetchAllMilestones()->willReturn([['milestone-data']]);
 
-        $githubMilestoneConverter->convert('data')->willReturn('converted');
+        $githubMilestoneConverter->convert(['milestone-data'])->willReturn('converted');
 
         $this->fetchAllMilestones()->shouldReturn(['converted']);
     }
 
     public function it_will_return_all_repo_issues($repoFacade, $githubIssueConverter)
     {
-        $repoFacade->fetchAllIssues()->willReturn(['data']);
-        $githubIssueConverter->convert('data')->willReturn('converted');
+        $repoFacade->fetchAllIssues()->willReturn([['milestone-data']]);
+        $githubIssueConverter->convert(['milestone-data'])->willReturn('converted');
 
         $this->fetchAllIssues()->shouldReturn(['converted']);
     }

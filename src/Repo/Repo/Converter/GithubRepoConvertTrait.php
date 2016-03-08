@@ -12,11 +12,11 @@ use DevBoardLib\GithubCore\Repo\GithubRepoSource;
 trait GithubRepoConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubRepoSource
      */
-    protected function convertRepo($data)
+    protected function convertRepo(array $data)
     {
         return new GithubRepoSource(
             new GithubRepoId($data['id']),

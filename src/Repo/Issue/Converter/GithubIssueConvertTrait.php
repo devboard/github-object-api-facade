@@ -13,13 +13,13 @@ use DevBoardLib\GithubCore\Issue\State\GithubIssueStateFactory;
 trait GithubIssueConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @throws \Exception
      *
      * @return GithubIssueSource
      */
-    protected function convertIssue($data)
+    protected function convertIssue(array $data)
     {
         return new GithubIssueSource(
             new GithubIssueId($data['id']),

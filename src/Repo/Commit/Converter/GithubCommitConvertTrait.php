@@ -15,11 +15,11 @@ use DevBoardLib\GithubCore\User\GithubUserSource;
 trait GithubCommitConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubCommitSource
      */
-    protected function convertCommit($data)
+    protected function convertCommit(array $data)
     {
         return new GithubCommitSource(
             new GithubCommitId($this->githubRepo->getId(), new GithubCommitSha($data['sha'])),
@@ -38,11 +38,11 @@ trait GithubCommitConvertTrait
     }
 
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubUserSource
      */
-    protected function getAuthor($data)
+    protected function getAuthor(array $data)
     {
         return new GithubUserSource(
             new GithubUserId($data['author']['id']),
@@ -55,11 +55,11 @@ trait GithubCommitConvertTrait
     }
 
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubUserSource
      */
-    protected function getCommitter($data)
+    protected function getCommitter(array $data)
     {
         return new GithubUserSource(
             new GithubUserId($data['committer']['id']),

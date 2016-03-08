@@ -15,13 +15,13 @@ use DevBoardLib\GithubCore\PullRequest\State\GithubPullRequestStateFactory;
 trait GithubPullRequestConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @throws \Exception
      *
      * @return GithubPullRequestSource
      */
-    protected function convertPullRequest($data)
+    protected function convertPullRequest(array $data)
     {
         return new GithubPullRequestSource(
             new GithubPullRequestId($data['id']),

@@ -25,11 +25,11 @@ class GithubRepoConverter
     }
 
     /**
-     * @param $data
+     * @param array $data
      *
      * @return \DevBoardLib\GithubCore\Repo\GithubRepoSource
      */
-    public function convert($data)
+    public function convert(array $data)
     {
         return $this->convertRepo($data);
     }

@@ -13,13 +13,13 @@ use DevBoardLib\GithubCore\Milestone\State\GithubMilestoneStateFactory;
 trait GithubMilestoneConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @throws \Exception
      *
      * @return GithubMilestoneSource
      */
-    protected function convertMilestone($data)
+    protected function convertMilestone(array $data)
     {
         $milestone = new GithubMilestoneSource(
             new GithubMilestoneId($data['id']),
@@ -42,11 +42,11 @@ trait GithubMilestoneConvertTrait
     }
 
     /**
-     * @param $data
+     * @param array|null $data
      *
      * @return GithubMilestoneSource|null
      */
-    protected function getMilestoneIfExists($data)
+    protected function getMilestoneIfExists(array $data = null)
     {
         if (empty($data)) {
             return null;

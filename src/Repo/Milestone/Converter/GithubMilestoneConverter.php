@@ -26,11 +26,11 @@ class GithubMilestoneConverter
     }
 
     /**
-     * @param $data
+     * @param array $data
      *
      * @return \DevBoardLib\GithubCore\Milestone\GithubMilestoneSource
      */
-    public function convert($data)
+    public function convert(array $data)
     {
         return $this->convertMilestone($data);
     }

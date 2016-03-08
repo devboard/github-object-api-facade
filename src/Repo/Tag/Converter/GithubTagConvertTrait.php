@@ -11,11 +11,11 @@ use DevBoardLib\GithubCore\Tag\GithubTagSource;
 trait GithubTagConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubTagSource
      */
-    protected function convertTag($data)
+    protected function convertTag(array $data)
     {
         return new GithubTagSource(
             new GithubTagId($this->githubRepo->getId(), $data['name']),

@@ -11,11 +11,11 @@ use DevBoardLib\GithubCore\User\GithubUserSource;
 trait GithubUserConvertTrait
 {
     /**
-     * @param $data
+     * @param array $data
      *
      * @return GithubUserSource
      */
-    protected function getUser($data)
+    protected function getUser(array $data)
     {
         return new GithubUserSource(
             new GithubUserId($data['id']),
@@ -28,11 +28,11 @@ trait GithubUserConvertTrait
     }
 
     /**
-     * @param $data
+     * @param array|null $data
      *
      * @return GithubUserSource|null
      */
-    protected function getUserIfExists($data)
+    protected function getUserIfExists(array $data = null)
     {
         if (empty($data)) {
             return null;

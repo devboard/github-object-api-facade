@@ -34,7 +34,7 @@ class GithubRepoConverterTest extends \PHPUnit_Framework_TestCase
     public function provideConversionData()
     {
         return [
-            $this->getDataProvider()->getRepoDetails(),
+            [$this->getDataProvider()->getRepoDetails()],
         ];
     }
 
