@@ -41,7 +41,7 @@ class RepoFacadeFactory
     {
         return new SimpleRepoFacade(
             $this->wrappedRepoFacadeFactory->create($githubRepo, $user),
-            new GithubRepoConverter($githubRepo),
+            new GithubRepoConverter(),
             new GithubBranchConverter($githubRepo),
             new GithubTagConverter($githubRepo),
             new GithubPullRequestConverter($githubRepo),

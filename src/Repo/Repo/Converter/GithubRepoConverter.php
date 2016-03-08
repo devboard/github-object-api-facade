@@ -2,7 +2,6 @@
 
 namespace DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
-use DevBoardLib\GithubCore\Repo\GithubRepo;
 use DevBoardLib\GithubObjectApiFacade\User\Converter\GithubUserConvertTrait;
 
 /**
@@ -12,16 +11,12 @@ class GithubRepoConverter
 {
     use GithubRepoConvertTrait;
     use GithubUserConvertTrait;
-    private $githubRepo;
 
     /**
      * GithubMilestoneConverter constructor.
-     *
-     * @param $githubRepo
      */
-    public function __construct(GithubRepo $githubRepo)
+    public function __construct()
     {
-        $this->githubRepo = $githubRepo;
     }
 
     /**

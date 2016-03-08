@@ -2,7 +2,6 @@
 
 namespace spec\DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
-use DevBoardLib\GithubCore\Repo\GithubRepo;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
@@ -14,9 +13,9 @@ class GithubRepoConverterSpec extends ObjectBehavior
         $this->shouldHaveType('DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter\GithubRepoConverter');
     }
 
-    public function let(GithubRepo $githubRepo)
+    public function let()
     {
-        $this->beConstructedWith($githubRepo);
+        $this->beConstructedWith();
     }
 
     /**
