@@ -89,7 +89,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_if_repo_is_a_fork_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getFork()->shouldReturn($arrayData['fork']);
+        $result->isFork()->shouldReturn($arrayData['fork']);
     }
 
     /**
@@ -107,7 +107,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_if_repo_is_private_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getGithubPrivate()->shouldReturn($arrayData['private']);
+        $result->isPrivate()->shouldReturn($arrayData['private']);
     }
 
     /**
