@@ -19,8 +19,6 @@ class SimpleUserFacade implements ObjectUserFacade
      *
      * @param UserFacade          $userFacade
      * @param GithubRepoConverter $githubRepoConverter
-     *
-     * @internal param $repoFacade
      */
     public function __construct(
         UserFacade $userFacade,
