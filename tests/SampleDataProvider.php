@@ -122,4 +122,14 @@ class SampleDataProvider
 
         return json_decode($content, true);
     }
+
+    /**
+     * @return mixed
+     */
+    public function getMyRepositoriesAll()
+    {
+        $content = file_get_contents(__DIR__.'/sample-data/me/repositories/all.json');
+
+        return json_decode($content, true);
+    }
 }
