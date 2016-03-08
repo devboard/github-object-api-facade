@@ -4,6 +4,7 @@ namespace DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
 use DateTime;
 use DevBoardLib\GithubCore\Repo\GithubRepoId;
+use DevBoardLib\GithubCore\Repo\GithubRepoPermissions;
 use DevBoardLib\GithubCore\Repo\GithubRepoSource;
 
 /**
@@ -18,6 +19,16 @@ trait GithubRepoConvertTrait
      */
     protected function convertRepo(array $data)
     {
+        $permissions = null;
+
+        if (array_key_exists('permissions', $data)) {
+            $permissions = new GithubRepoPermissions(
+                (bool) $data['permissions']['admin'],
+                (bool) $data['permissions']['push'],
+                (bool) $data['permissions']['pull']
+            );
+        }
+
         return new GithubRepoSource(
             new GithubRepoId($data['id']),
             $this->getUser($data['owner']),
@@ -31,6 +42,7 @@ trait GithubRepoConvertTrait
             $data['private'],
             $data['git_url'],
             $data['ssh_url'],
+            $permissions,
             new DateTime($data['created_at']),
             new DateTime($data['updated_at']),
             new DateTime($data['pushed_at'])
