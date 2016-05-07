@@ -2,7 +2,6 @@
 
 namespace DevBoardLib\GithubObjectApiFacade\Repo\Branch\Converter;
 
-use DevBoardLib\GithubCore\Branch\GithubBranchId;
 use DevBoardLib\GithubCore\Branch\GithubBranchSource;
 
 /**
@@ -18,8 +17,7 @@ trait GithubBranchConvertTrait
     protected function convertBranch(array $data)
     {
         return new GithubBranchSource(
-            new GithubBranchId($this->githubRepo->getId(), $data['name']),
-            $this->githubRepo,
+            $this->githubRepo->getId(),
             $data['name'],
             $this->convertCommit($data['commit'])
 

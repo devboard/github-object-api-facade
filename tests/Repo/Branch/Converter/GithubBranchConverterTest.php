@@ -51,6 +51,7 @@ class GithubBranchConverterTest extends \PHPUnit_Framework_TestCase
         $repoId = m::mock('DevBoardLib\GithubCore\Repo\GithubRepoId');
 
         $repo->shouldReceive('getId')->andReturn($repoId);
+        $repoId->shouldReceive('getId')->andReturn(123);
 
         return $repo;
     }

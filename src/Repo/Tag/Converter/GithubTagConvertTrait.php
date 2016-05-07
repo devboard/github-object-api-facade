@@ -2,7 +2,6 @@
 
 namespace DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter;
 
-use DevBoardLib\GithubCore\Tag\GithubTagId;
 use DevBoardLib\GithubCore\Tag\GithubTagSource;
 
 /**
@@ -18,8 +17,7 @@ trait GithubTagConvertTrait
     protected function convertTag(array $data)
     {
         return new GithubTagSource(
-            new GithubTagId($this->githubRepo->getId(), $data['name']),
-            $this->githubRepo,
+            $this->githubRepo->getId(),
             $data['name'],
             $this->convertCommit($data['commit'])
 
