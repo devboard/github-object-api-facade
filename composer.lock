@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc87820933e3804e284a3c3d8d99ad3d",
-    "content-hash": "2382cf408ce672cff35ccb260713b0b4",
+    "hash": "4256137d9a50d6606a4b0d7982cef24d",
+    "content-hash": "022a13f1de5a724811fb9ada8231f6d2",
     "packages": [
         {
             "name": "devboard/github-api-facade",
-            "version": "v0.3.0",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-api-facade.git",
-                "reference": "8f486ff1231299a0d98aaadb85891445382fb07f"
+                "reference": "3e6bf1026505ab8fc2348d1255794bccf180c037"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/8f486ff1231299a0d98aaadb85891445382fb07f",
-                "reference": "8f486ff1231299a0d98aaadb85891445382fb07f",
+                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/3e6bf1026505ab8fc2348d1255794bccf180c037",
+                "reference": "3e6bf1026505ab8fc2348d1255794bccf180c037",
                 "shasum": ""
             },
             "require": {
-                "devboard/github-core": "^0.3",
+                "devboard/github-core": "^0.4",
                 "knplabs/github-api": "~1.4",
-                "php": ">=5.3.9"
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "behat/behat": "~3.0",
@@ -38,12 +38,11 @@
                 "mockery/mockery": "~0.9",
                 "phpmd/phpmd": "~2.1",
                 "phpspec/phpspec": "~2.0",
-                "phpunit/phpunit": "~4",
+                "phpunit/phpunit": "~5",
                 "rmiller/behat-spec": "~0.2",
                 "rmiller/exemplify-extension": "~0.2",
                 "satooshi/php-coveralls": "^1",
-                "squizlabs/php_codesniffer": "2.*",
-                "vinkla/climb": "^0.8.0"
+                "squizlabs/php_codesniffer": "2.*"
             },
             "type": "project",
             "autoload": {
@@ -58,24 +57,24 @@
                 "proprietary"
             ],
             "description": "Github API facade",
-            "time": "2016-03-08 19:01:07"
+            "time": "2016-05-07 17:35:51"
         },
         {
             "name": "devboard/github-core",
-            "version": "v0.3.0",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-core.git",
-                "reference": "f497152953a24c01ed8b047bf945089b2b007af4"
+                "reference": "e447f737cb1c620b52197639cc98b72015dcb08c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-core/zipball/f497152953a24c01ed8b047bf945089b2b007af4",
-                "reference": "f497152953a24c01ed8b047bf945089b2b007af4",
+                "url": "https://api.github.com/repos/devboard/github-core/zipball/e447f737cb1c620b52197639cc98b72015dcb08c",
+                "reference": "e447f737cb1c620b52197639cc98b72015dcb08c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "ciaranmcnulty/phpspec-typehintedmethods": "~1.1",
@@ -86,11 +85,10 @@
                 "mockery/mockery": "~0.9",
                 "phpmd/phpmd": "~2.1",
                 "phpspec/phpspec": "~2.0",
-                "phpunit/phpunit": "~4",
+                "phpunit/phpunit": "~5",
                 "rmiller/exemplify-extension": "~0.2",
                 "satooshi/php-coveralls": "^1",
-                "squizlabs/php_codesniffer": "2.*",
-                "vinkla/climb": "^0.8.0"
+                "squizlabs/php_codesniffer": "2.*"
             },
             "type": "project",
             "autoload": {
@@ -105,7 +103,7 @@
                 "proprietary"
             ],
             "description": "Github Core",
-            "time": "2016-03-08 17:05:19"
+            "time": "2016-05-07 17:23:53"
         },
         {
             "name": "guzzle/guzzle",
