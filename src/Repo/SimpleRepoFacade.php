@@ -17,16 +17,43 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter\GithubTagConverter;
  */
 class SimpleRepoFacade implements ObjectRepoFacade
 {
+    /**
+     * @var RepoFacade
+     */
     private $repoFacade;
 
+    /**
+     * @var GithubRepoConverter
+     */
     private $githubRepoConverter;
+    /**
+     * @var GithubBranchConverter
+     */
     private $githubBranchConverter;
+    /**
+     * @var GithubTagConverter
+     */
     private $githubTagConverter;
+    /**
+     * @var GithubPullRequestConverter
+     */
     private $githubPullRequestConverter;
+    /**
+     * @var GithubCommitConverter
+     */
     private $githubCommitConverter;
+    /**
+     * @var GithubCommitStatusConverter
+     */
     private $githubCommitStatusConverter;
 
+    /**
+     * @var GithubIssueConverter
+     */
     private $githubIssueConverter;
+    /**
+     * @var GithubMilestoneConverter
+     */
     private $githubMilestoneConverter;
 
     /**

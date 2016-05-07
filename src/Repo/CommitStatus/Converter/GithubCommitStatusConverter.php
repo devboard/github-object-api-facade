@@ -13,6 +13,9 @@ class GithubCommitStatusConverter
 {
     use GithubCommitStatusConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**

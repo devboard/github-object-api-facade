@@ -12,6 +12,9 @@ class GithubCommitConverter
 {
     use GithubCommitConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**

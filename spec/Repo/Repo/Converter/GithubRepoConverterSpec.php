@@ -2,6 +2,11 @@
 
 namespace spec\DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
+use DevBoardLib\GithubCore\Repo\GithubRepoCreatedAt;
+use DevBoardLib\GithubCore\Repo\GithubRepoOwner;
+use DevBoardLib\GithubCore\Repo\GithubRepoPushedAt;
+use DevBoardLib\GithubCore\Repo\GithubRepoUpdatedAt;
+use DevBoardLib\GithubCore\User\GithubUserId;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
@@ -42,9 +47,8 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_owner_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getOwnerUserId()->shouldReturnAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserId');
-        $result->getOwnerUser()->shouldReturnAnInstanceOf('DevBoardLib\GithubCore\User\GithubUserSource');
-        $result->getOwner()->shouldReturn($arrayData['owner']['login']);
+        $result->getOwnerUserId()->shouldReturnAnInstanceOf(GithubUserId::class);
+        $result->getOwner()->shouldReturnAnInstanceOf(GithubRepoOwner::class);
     }
 
     /**
@@ -53,7 +57,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_repo_name_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getName()->shouldReturn($arrayData['name']);
+        $result->getName()->__toString()->shouldReturn($arrayData['name']);
     }
 
     /**
@@ -62,7 +66,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_repo_full_name_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getFullName()->shouldReturn($arrayData['full_name']);
+        $result->getFullName()->__toString()->shouldReturn($arrayData['full_name']);
     }
 
     /**
@@ -98,7 +102,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_default_branch_name_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getDefaultBranch()->shouldReturn($arrayData['default_branch']);
+        $result->getDefaultBranchName()->shouldReturn($arrayData['default_branch']);
     }
 
     /**
@@ -116,7 +120,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_git_clone_url_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getGitUrl()->shouldReturn($arrayData['git_url']);
+        $result->getGitUrl()->__toString()->shouldReturn($arrayData['git_url']);
     }
 
     /**
@@ -125,7 +129,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     public function it_will_hold_ssh_clone_url_in_result($arrayData)
     {
         $result = $this->convert($arrayData);
-        $result->getSshUrl()->shouldReturn($arrayData['ssh_url']);
+        $result->getSshUrl()->__toString()->shouldReturn($arrayData['ssh_url']);
     }
 
     /**
@@ -135,7 +139,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     {
         $result = $this->convert($arrayData);
 
-        $result->getGithubCreatedAt()->shouldBeAnInstanceOf('DateTime');
+        $result->getGithubCreatedAt()->shouldBeAnInstanceOf(GithubRepoCreatedAt::class);
         $result->getGithubCreatedAt()->format('Y-m-d\TH:i:s\Z')->shouldBe($arrayData['created_at']);
     }
 
@@ -146,7 +150,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     {
         $result = $this->convert($arrayData);
 
-        $result->getGithubUpdatedAt()->shouldBeAnInstanceOf('DateTime');
+        $result->getGithubUpdatedAt()->shouldBeAnInstanceOf(GithubRepoUpdatedAt::class);
         $result->getGithubUpdatedAt()->format('Y-m-d\TH:i:s\Z')->shouldBe($arrayData['updated_at']);
     }
 
@@ -157,7 +161,7 @@ class GithubRepoConverterSpec extends ObjectBehavior
     {
         $result = $this->convert($arrayData);
 
-        $result->getGithubPushedAt()->shouldBeAnInstanceOf('DateTime');
+        $result->getGithubPushedAt()->shouldBeAnInstanceOf(GithubRepoPushedAt::class);
         $result->getGithubPushedAt()->format('Y-m-d\TH:i:s\Z')->shouldBe($arrayData['pushed_at']);
     }
 

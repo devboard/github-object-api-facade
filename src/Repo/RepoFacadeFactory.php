@@ -16,9 +16,14 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Tag\Converter\GithubTagConverter;
 
 /**
  * Class RepoFacadeFactory.
+ *
+ * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class RepoFacadeFactory
 {
+    /**
+     * @var WrappedRepoFacadeFactory
+     */
     private $wrappedRepoFacadeFactory;
 
     /**

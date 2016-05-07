@@ -10,8 +10,14 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter\GithubRepoConverter;
  */
 class SimpleUserFacade implements ObjectUserFacade
 {
+    /**
+     * @var UserFacade
+     */
     private $userFacade;
 
+    /**
+     * @var GithubRepoConverter
+     */
     private $githubRepoConverter;
 
     /**

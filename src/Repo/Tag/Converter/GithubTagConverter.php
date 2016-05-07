@@ -15,6 +15,9 @@ class GithubTagConverter
     use GithubTagConvertTrait;
     use GithubCommitConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**

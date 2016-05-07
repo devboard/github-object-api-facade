@@ -11,6 +11,9 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter\GithubRepoConverter;
  */
 class UserFacadeFactory
 {
+    /**
+     * @var WrappedUserFacadeFactory
+     */
     private $wrappedUserFacadeFactory;
 
     /**

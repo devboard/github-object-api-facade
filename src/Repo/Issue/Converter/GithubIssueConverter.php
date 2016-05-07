@@ -15,6 +15,9 @@ class GithubIssueConverter
     use GithubIssueConvertTrait;
     use GithubMilestoneConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**

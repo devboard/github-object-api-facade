@@ -15,6 +15,9 @@ class GithubBranchConverter
     use GithubBranchConvertTrait;
     use GithubCommitConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**

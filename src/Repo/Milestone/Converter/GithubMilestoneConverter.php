@@ -13,6 +13,9 @@ class GithubMilestoneConverter
 {
     use GithubMilestoneConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**

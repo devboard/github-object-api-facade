@@ -17,6 +17,9 @@ class GithubPullRequestConverter
     use GithubCommitConvertTrait;
     use GithubMilestoneConvertTrait;
     use GithubUserConvertTrait;
+    /**
+     * @var GithubRepo
+     */
     private $githubRepo;
 
     /**
