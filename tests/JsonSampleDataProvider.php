@@ -22,7 +22,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getRepoDetails($fullName = self::DEFAULT_REPO)
+    public function getRepoDetails(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/repo-details.json');
 
@@ -32,7 +32,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getBranch($fullName = self::DEFAULT_REPO, $branchName = self::DEFAULT_BRANCH)
+    public function getBranch(string $fullName = self::DEFAULT_REPO, string $branchName = self::DEFAULT_BRANCH)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/branch-'.$branchName.'.json');
 
@@ -42,7 +42,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllBranches($fullName = self::DEFAULT_REPO)
+    public function getAllBranches(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/branches.json');
 
@@ -52,7 +52,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllBranchNames($fullName = self::DEFAULT_REPO)
+    public function getAllBranchNames(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/branchnames.json');
 
@@ -62,7 +62,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllTagNames($fullName = self::DEFAULT_REPO)
+    public function getAllTagNames(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/tags.json');
 
@@ -72,10 +72,10 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getCommit($fullName = self::DEFAULT_REPO, $commitSha = self::DEFAULT_COMMIT_SHA)
+    public function getCommit(string $fullName = self::DEFAULT_REPO, string $sha = self::DEFAULT_COMMIT_SHA)
     {
         $content = file_get_contents(
-            __DIR__.'/sample-data/'.$fullName.'/commit-'.$commitSha.'.json'
+            __DIR__.'/sample-data/'.$fullName.'/commit-'.$sha.'.json'
         );
 
         return json_decode($content, true);
@@ -84,10 +84,10 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getCommitStatus($fullName = self::DEFAULT_REPO, $commitSha = self::DEFAULT_COMMIT_SHA)
+    public function getCommitStatus(string $fullName = self::DEFAULT_REPO, string $sha = self::DEFAULT_COMMIT_SHA)
     {
         $content = file_get_contents(
-            __DIR__.'/sample-data/'.$fullName.'/commit_status-'.$commitSha.'.json'
+            __DIR__.'/sample-data/'.$fullName.'/commit_status-'.$sha.'.json'
         );
 
         return json_decode($content, true);
@@ -96,10 +96,10 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getCommitStatuses($fullName = self::DEFAULT_REPO, $commitSha = self::DEFAULT_COMMIT_SHA)
+    public function getCommitStatuses(string $fullName = self::DEFAULT_REPO, string $sha = self::DEFAULT_COMMIT_SHA)
     {
         $content = file_get_contents(
-            __DIR__.'/sample-data/'.$fullName.'/commit_statuses-'.$commitSha.'.json'
+            __DIR__.'/sample-data/'.$fullName.'/commit_statuses-'.$sha.'.json'
         );
 
         return json_decode($content, true);
@@ -108,7 +108,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllPullRequests($fullName = self::DEFAULT_REPO)
+    public function getAllPullRequests(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/pullrequests.json');
 
@@ -118,7 +118,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllMilestones($fullName = self::DEFAULT_REPO)
+    public function getAllMilestones(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/milestones.json');
 
@@ -128,7 +128,7 @@ class JsonSampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllIssues($fullName = self::DEFAULT_REPO)
+    public function getAllIssues(string $fullName = self::DEFAULT_REPO)
     {
         $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/issues.json');
 
