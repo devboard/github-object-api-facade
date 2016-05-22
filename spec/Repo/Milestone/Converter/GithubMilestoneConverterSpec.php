@@ -328,7 +328,7 @@ class GithubMilestoneConverterSpec extends ObjectBehavior
     {
         $testData = [];
 
-        foreach ($this->getDataProvider()->getAllMilestones() as $item) {
+        foreach ($this->getDataProvider()->getAllMilestones('symfony/symfony') as $item) {
             if (null === $item['creator']) {
                 $testData[] = [$item];
             }
