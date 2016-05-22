@@ -11,7 +11,8 @@ matrix:
           env: coverage=phpspec
         - php: 7.0
     fast_finish: true
-
+notifications:
+  email: false
 cache:
   directories:
     - vendor
