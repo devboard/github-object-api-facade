@@ -1,0 +1,471 @@
+[
+  {
+    "name": "v0.5.0",
+    "zipball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/zipball/v0.5.0",
+    "tarball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/tarball/v0.5.0",
+    "commit": {
+      "sha": "69bbb1fe569d990e4d9f317b56173e3497e04ee6",
+      "commit": {
+        "author": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-22T12:54:02Z"
+        },
+        "committer": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-22T12:54:02Z"
+        },
+        "message": "Updated composer.lock for devboard/github-object-api-facade 0.5",
+        "tree": {
+          "sha": "5f9c7ee6a521c9c630d02863b9950205bc4171d5",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/trees/5f9c7ee6a521c9c630d02863b9950205bc4171d5"
+        },
+        "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/commits/69bbb1fe569d990e4d9f317b56173e3497e04ee6",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/69bbb1fe569d990e4d9f317b56173e3497e04ee6",
+      "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/69bbb1fe569d990e4d9f317b56173e3497e04ee6",
+      "comments_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/69bbb1fe569d990e4d9f317b56173e3497e04ee6/comments",
+      "author": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ddbe9ffabf53a038dec1c74dc9e48231de785dc8",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/ddbe9ffabf53a038dec1c74dc9e48231de785dc8",
+          "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/ddbe9ffabf53a038dec1c74dc9e48231de785dc8"
+        }
+      ],
+      "stats": {
+        "total": 14,
+        "additions": 7,
+        "deletions": 7
+      },
+      "files": [
+        {
+          "sha": "9c24990af23a727a535d546e0e6a7e7b4ad366fc",
+          "filename": "composer.lock",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7,
+          "changes": 14,
+          "blob_url": "https://github.com/devboard/github-object-api-facade-bundle/blob/69bbb1fe569d990e4d9f317b56173e3497e04ee6/composer.lock",
+          "raw_url": "https://github.com/devboard/github-object-api-facade-bundle/raw/69bbb1fe569d990e4d9f317b56173e3497e04ee6/composer.lock",
+          "contents_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/contents/composer.lock?ref=69bbb1fe569d990e4d9f317b56173e3497e04ee6",
+          "patch": "@@ -4,8 +4,8 @@\n         \"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file\",\n         \"This file is @generated automatically\"\n     ],\n-    \"hash\": \"d2d05d1b6eeebfcfe476473aa3c26619\",\n-    \"content-hash\": \"144b1ea6caeea1b4171c118ec574205a\",\n+    \"hash\": \"8dbd19c3934cf8a0f4c71e93356965a6\",\n+    \"content-hash\": \"94971e94d8f4002dba52c2a6f368a97b\",\n     \"packages\": [\n         {\n             \"name\": \"devboard/github-api-facade\",\n@@ -158,16 +158,16 @@\n         },\n         {\n             \"name\": \"devboard/github-object-api-facade\",\n-            \"version\": \"v0.4.3\",\n+            \"version\": \"v0.5.0\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-object-api-facade.git\",\n-                \"reference\": \"fdd07b3206104bee580f686d21594c3bba85c33d\"\n+                \"reference\": \"b26b22ed16365ac4615ba9efe824abc7835dcbea\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-object-api-facade/zipball/fdd07b3206104bee580f686d21594c3bba85c33d\",\n-                \"reference\": \"fdd07b3206104bee580f686d21594c3bba85c33d\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-object-api-facade/zipball/b26b22ed16365ac4615ba9efe824abc7835dcbea\",\n+                \"reference\": \"b26b22ed16365ac4615ba9efe824abc7835dcbea\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -206,7 +206,7 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github Object API facade\",\n-            \"time\": \"2016-05-21 19:43:11\"\n+            \"time\": \"2016-05-22 12:50:02\"\n         },\n         {\n             \"name\": \"guzzle/guzzle\","
+        }
+      ]
+    }
+  },
+  {
+    "name": "v0.4.1",
+    "zipball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/zipball/v0.4.1",
+    "tarball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/tarball/v0.4.1",
+    "commit": {
+      "sha": "bcef06494181ae7171ad8c19153cc25a2579c565",
+      "commit": {
+        "author": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-21T19:44:41Z"
+        },
+        "committer": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-21T19:44:41Z"
+        },
+        "message": "Updated composer.lock, regular lib update",
+        "tree": {
+          "sha": "6176e4d96a607ec37b257cd36d38660accb7a387",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/trees/6176e4d96a607ec37b257cd36d38660accb7a387"
+        },
+        "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/commits/bcef06494181ae7171ad8c19153cc25a2579c565",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/bcef06494181ae7171ad8c19153cc25a2579c565",
+      "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/bcef06494181ae7171ad8c19153cc25a2579c565",
+      "comments_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/bcef06494181ae7171ad8c19153cc25a2579c565/comments",
+      "author": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ec994accc44afbaf469e8839fe6e31f918c0119d",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/ec994accc44afbaf469e8839fe6e31f918c0119d",
+          "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/ec994accc44afbaf469e8839fe6e31f918c0119d"
+        }
+      ],
+      "stats": {
+        "total": 128,
+        "additions": 66,
+        "deletions": 62
+      },
+      "files": [
+        {
+          "sha": "296fff727fa3866203e475f5a182de780da3a0bf",
+          "filename": "composer.lock",
+          "status": "modified",
+          "additions": 66,
+          "deletions": 62,
+          "changes": 128,
+          "blob_url": "https://github.com/devboard/github-object-api-facade-bundle/blob/bcef06494181ae7171ad8c19153cc25a2579c565/composer.lock",
+          "raw_url": "https://github.com/devboard/github-object-api-facade-bundle/raw/bcef06494181ae7171ad8c19153cc25a2579c565/composer.lock",
+          "contents_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/contents/composer.lock?ref=bcef06494181ae7171ad8c19153cc25a2579c565",
+          "patch": "@@ -9,16 +9,16 @@\n     \"packages\": [\n         {\n             \"name\": \"devboard/github-api-facade\",\n-            \"version\": \"v0.4.0\",\n+            \"version\": \"v0.4.1\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-api-facade.git\",\n-                \"reference\": \"3e6bf1026505ab8fc2348d1255794bccf180c037\"\n+                \"reference\": \"8a87b51eb3f167afa21170b73e4f4a3695f521b8\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-api-facade/zipball/3e6bf1026505ab8fc2348d1255794bccf180c037\",\n-                \"reference\": \"3e6bf1026505ab8fc2348d1255794bccf180c037\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-api-facade/zipball/8a87b51eb3f167afa21170b73e4f4a3695f521b8\",\n+                \"reference\": \"8a87b51eb3f167afa21170b73e4f4a3695f521b8\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -57,7 +57,7 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github API facade\",\n-            \"time\": \"2016-05-07 17:35:51\"\n+            \"time\": \"2016-05-21 19:38:19\"\n         },\n         {\n             \"name\": \"devboard/github-api-facade-bundle\",\n@@ -112,16 +112,16 @@\n         },\n         {\n             \"name\": \"devboard/github-core\",\n-            \"version\": \"v0.4.0\",\n+            \"version\": \"v0.4.8\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-core.git\",\n-                \"reference\": \"e447f737cb1c620b52197639cc98b72015dcb08c\"\n+                \"reference\": \"b0a463a6cd91bd55bd49d40952c8fbb89cc8ca9d\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-core/zipball/e447f737cb1c620b52197639cc98b72015dcb08c\",\n-                \"reference\": \"e447f737cb1c620b52197639cc98b72015dcb08c\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-core/zipball/b0a463a6cd91bd55bd49d40952c8fbb89cc8ca9d\",\n+                \"reference\": \"b0a463a6cd91bd55bd49d40952c8fbb89cc8ca9d\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -154,20 +154,20 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github Core\",\n-            \"time\": \"2016-05-07 17:23:53\"\n+            \"time\": \"2016-05-21 19:35:51\"\n         },\n         {\n             \"name\": \"devboard/github-object-api-facade\",\n-            \"version\": \"v0.4.0\",\n+            \"version\": \"v0.4.3\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-object-api-facade.git\",\n-                \"reference\": \"3e5383a1353ef200f6b6f5cd7416cdc9213c35a7\"\n+                \"reference\": \"fdd07b3206104bee580f686d21594c3bba85c33d\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-object-api-facade/zipball/3e5383a1353ef200f6b6f5cd7416cdc9213c35a7\",\n-                \"reference\": \"3e5383a1353ef200f6b6f5cd7416cdc9213c35a7\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-object-api-facade/zipball/fdd07b3206104bee580f686d21594c3bba85c33d\",\n+                \"reference\": \"fdd07b3206104bee580f686d21594c3bba85c33d\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -184,7 +184,7 @@\n                 \"coduo/phpspec-data-provider-extension\": \"^1.0\",\n                 \"fabpot/php-cs-fixer\": \"~1.5\",\n                 \"henrikbjorn/phpspec-code-coverage\": \"~2.0\",\n-                \"mockery/mockery\": \"~0.9\",\n+                \"mockery/mockery\": \"dev-master\",\n                 \"phpmd/phpmd\": \"~2.1\",\n                 \"phpspec/phpspec\": \"~2.0\",\n                 \"phpunit/phpunit\": \"~5\",\n@@ -206,7 +206,7 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github Object API facade\",\n-            \"time\": \"2016-05-07 17:49:12\"\n+            \"time\": \"2016-05-21 19:43:11\"\n         },\n         {\n             \"name\": \"guzzle/guzzle\",\n@@ -302,16 +302,16 @@\n         },\n         {\n             \"name\": \"knplabs/github-api\",\n-            \"version\": \"1.6.0\",\n+            \"version\": \"1.6.1\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/KnpLabs/php-github-api.git\",\n-                \"reference\": \"5720f828ea241eded6c6263249fa00b0a37650f4\"\n+                \"reference\": \"f77df24a154cdf7461a7ff2712ef271f03a6b85b\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/KnpLabs/php-github-api/zipball/5720f828ea241eded6c6263249fa00b0a37650f4\",\n-                \"reference\": \"5720f828ea241eded6c6263249fa00b0a37650f4\",\n+                \"url\": \"https://api.github.com/repos/KnpLabs/php-github-api/zipball/f77df24a154cdf7461a7ff2712ef271f03a6b85b\",\n+                \"reference\": \"f77df24a154cdf7461a7ff2712ef271f03a6b85b\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -360,20 +360,20 @@\n                 \"gist\",\n                 \"github\"\n             ],\n-            \"time\": \"2016-02-24 05:52:33\"\n+            \"time\": \"2016-05-20 09:54:41\"\n         },\n         {\n             \"name\": \"symfony/event-dispatcher\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/event-dispatcher.git\",\n-                \"reference\": \"17b04e6b1ede45b57d3ad5146abe50df6c3968b4\"\n+                \"reference\": \"807dde98589f9b2b00624dca326740380d78dbbc\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/symfony/event-dispatcher/zipball/17b04e6b1ede45b57d3ad5146abe50df6c3968b4\",\n-                \"reference\": \"17b04e6b1ede45b57d3ad5146abe50df6c3968b4\",\n+                \"url\": \"https://api.github.com/repos/symfony/event-dispatcher/zipball/807dde98589f9b2b00624dca326740380d78dbbc\",\n+                \"reference\": \"807dde98589f9b2b00624dca326740380d78dbbc\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -420,7 +420,7 @@\n             ],\n             \"description\": \"Symfony EventDispatcher Component\",\n             \"homepage\": \"https://symfony.com\",\n-            \"time\": \"2016-04-12 18:09:53\"\n+            \"time\": \"2016-05-05 06:56:13\"\n         }\n     ],\n     \"packages-dev\": [\n@@ -1669,21 +1669,24 @@\n         },\n         {\n             \"name\": \"phpunit/php-timer\",\n-            \"version\": \"1.0.7\",\n+            \"version\": \"1.0.8\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/sebastianbergmann/php-timer.git\",\n-                \"reference\": \"3e82f4e9fc92665fafd9157568e4dcb01d014e5b\"\n+                \"reference\": \"38e9124049cf1a164f1e4537caf19c99bf1eb260\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/sebastianbergmann/php-timer/zipball/3e82f4e9fc92665fafd9157568e4dcb01d014e5b\",\n-                \"reference\": \"3e82f4e9fc92665fafd9157568e4dcb01d014e5b\",\n+                \"url\": \"https://api.github.com/repos/sebastianbergmann/php-timer/zipball/38e9124049cf1a164f1e4537caf19c99bf1eb260\",\n+                \"reference\": \"38e9124049cf1a164f1e4537caf19c99bf1eb260\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n                 \"php\": \">=5.3.3\"\n             },\n+            \"require-dev\": {\n+                \"phpunit/phpunit\": \"~4|~5\"\n+            },\n             \"type\": \"library\",\n             \"autoload\": {\n                 \"classmap\": [\n@@ -1706,7 +1709,7 @@\n             \"keywords\": [\n                 \"timer\"\n             ],\n-            \"time\": \"2015-06-21 08:01:12\"\n+            \"time\": \"2016-05-12 18:03:57\"\n         },\n         {\n             \"name\": \"phpunit/php-token-stream\",\n@@ -1759,16 +1762,16 @@\n         },\n         {\n             \"name\": \"phpunit/phpunit\",\n-            \"version\": \"5.3.2\",\n+            \"version\": \"5.3.4\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/sebastianbergmann/phpunit.git\",\n-                \"reference\": \"2c6da3536035617bae3fe3db37283c9e0eb63ab3\"\n+                \"reference\": \"00dd95ffb48805503817ced06399017df315fe5c\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2c6da3536035617bae3fe3db37283c9e0eb63ab3\",\n-                \"reference\": \"2c6da3536035617bae3fe3db37283c9e0eb63ab3\",\n+                \"url\": \"https://api.github.com/repos/sebastianbergmann/phpunit/zipball/00dd95ffb48805503817ced06399017df315fe5c\",\n+                \"reference\": \"00dd95ffb48805503817ced06399017df315fe5c\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -1830,7 +1833,7 @@\n                 \"testing\",\n                 \"xunit\"\n             ],\n-            \"time\": \"2016-04-12 16:20:08\"\n+            \"time\": \"2016-05-11 13:28:45\"\n         },\n         {\n             \"name\": \"phpunit/phpunit-mock-objects\",\n@@ -2418,16 +2421,16 @@\n         },\n         {\n             \"name\": \"sebastian/environment\",\n-            \"version\": \"1.3.6\",\n+            \"version\": \"1.3.7\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/sebastianbergmann/environment.git\",\n-                \"reference\": \"2292b116f43c272ff4328083096114f84ea46a56\"\n+                \"reference\": \"4e8f0da10ac5802913afc151413bc8c53b6c2716\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/sebastianbergmann/environment/zipball/2292b116f43c272ff4328083096114f84ea46a56\",\n-                \"reference\": \"2292b116f43c272ff4328083096114f84ea46a56\",\n+                \"url\": \"https://api.github.com/repos/sebastianbergmann/environment/zipball/4e8f0da10ac5802913afc151413bc8c53b6c2716\",\n+                \"reference\": \"4e8f0da10ac5802913afc151413bc8c53b6c2716\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -2464,7 +2467,7 @@\n                 \"environment\",\n                 \"hhvm\"\n             ],\n-            \"time\": \"2016-05-04 07:59:13\"\n+            \"time\": \"2016-05-17 03:18:57\"\n         },\n         {\n             \"name\": \"sebastian/exporter\",\n@@ -2847,7 +2850,7 @@\n         },\n         {\n             \"name\": \"symfony/class-loader\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/class-loader.git\",\n@@ -2903,7 +2906,7 @@\n         },\n         {\n             \"name\": \"symfony/config\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/config.git\",\n@@ -2956,7 +2959,7 @@\n         },\n         {\n             \"name\": \"symfony/console\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/console.git\",\n@@ -3016,7 +3019,7 @@\n         },\n         {\n             \"name\": \"symfony/css-selector\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/css-selector.git\",\n@@ -3069,16 +3072,16 @@\n         },\n         {\n             \"name\": \"symfony/dependency-injection\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/dependency-injection.git\",\n-                \"reference\": \"4973244b171257b987332386405b0f393230de52\"\n+                \"reference\": \"b2f4d40a6ed0f6ace59aa3c88d08a94eb9aef811\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/symfony/dependency-injection/zipball/4973244b171257b987332386405b0f393230de52\",\n-                \"reference\": \"4973244b171257b987332386405b0f393230de52\",\n+                \"url\": \"https://api.github.com/repos/symfony/dependency-injection/zipball/b2f4d40a6ed0f6ace59aa3c88d08a94eb9aef811\",\n+                \"reference\": \"b2f4d40a6ed0f6ace59aa3c88d08a94eb9aef811\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -3091,6 +3094,7 @@\n             },\n             \"suggest\": {\n                 \"symfony/config\": \"\",\n+                \"symfony/expression-language\": \"For using expressions in service container configuration\",\n                 \"symfony/proxy-manager-bridge\": \"Generate service proxies to lazy load them\",\n                 \"symfony/yaml\": \"\"\n             },\n@@ -3124,11 +3128,11 @@\n             ],\n             \"description\": \"Symfony DependencyInjection Component\",\n             \"homepage\": \"https://symfony.com\",\n-            \"time\": \"2016-04-25 11:17:47\"\n+            \"time\": \"2016-05-09 18:14:44\"\n         },\n         {\n             \"name\": \"symfony/filesystem\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/filesystem.git\",\n@@ -3177,7 +3181,7 @@\n         },\n         {\n             \"name\": \"symfony/finder\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/finder.git\",\n@@ -3226,16 +3230,16 @@\n         },\n         {\n             \"name\": \"symfony/polyfill-mbstring\",\n-            \"version\": \"v1.1.1\",\n+            \"version\": \"v1.2.0\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/polyfill-mbstring.git\",\n-                \"reference\": \"1289d16209491b584839022f29257ad859b8532d\"\n+                \"reference\": \"dff51f72b0706335131b00a7f49606168c582594\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d\",\n-                \"reference\": \"1289d16209491b584839022f29257ad859b8532d\",\n+                \"url\": \"https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594\",\n+                \"reference\": \"dff51f72b0706335131b00a7f49606168c582594\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n@@ -3247,7 +3251,7 @@\n             \"type\": \"library\",\n             \"extra\": {\n                 \"branch-alias\": {\n-                    \"dev-master\": \"1.1-dev\"\n+                    \"dev-master\": \"1.2-dev\"\n                 }\n             },\n             \"autoload\": {\n@@ -3281,11 +3285,11 @@\n                 \"portable\",\n                 \"shim\"\n             ],\n-            \"time\": \"2016-01-20 09:13:37\"\n+            \"time\": \"2016-05-18 14:26:46\"\n         },\n         {\n             \"name\": \"symfony/process\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/process.git\",\n@@ -3334,7 +3338,7 @@\n         },\n         {\n             \"name\": \"symfony/stopwatch\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/stopwatch.git\",\n@@ -3383,7 +3387,7 @@\n         },\n         {\n             \"name\": \"symfony/translation\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/translation.git\",\n@@ -3447,7 +3451,7 @@\n         },\n         {\n             \"name\": \"symfony/yaml\",\n-            \"version\": \"v3.0.5\",\n+            \"version\": \"v3.0.6\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/symfony/yaml.git\","
+        }
+      ]
+    }
+  },
+  {
+    "name": "v0.4.0",
+    "zipball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/zipball/v0.4.0",
+    "tarball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/tarball/v0.4.0",
+    "commit": {
+      "sha": "ec994accc44afbaf469e8839fe6e31f918c0119d",
+      "commit": {
+        "author": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-07T17:56:01Z"
+        },
+        "committer": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-07T17:56:01Z"
+        },
+        "message": "Updated composer.lock",
+        "tree": {
+          "sha": "541a697418926483c44dc17193c318a95ad58000",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/trees/541a697418926483c44dc17193c318a95ad58000"
+        },
+        "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/commits/ec994accc44afbaf469e8839fe6e31f918c0119d",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/ec994accc44afbaf469e8839fe6e31f918c0119d",
+      "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/ec994accc44afbaf469e8839fe6e31f918c0119d",
+      "comments_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/ec994accc44afbaf469e8839fe6e31f918c0119d/comments",
+      "author": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "61e81474481d88ad1fcfd6c3a43eefe836a53ae0",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/61e81474481d88ad1fcfd6c3a43eefe836a53ae0",
+          "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/61e81474481d88ad1fcfd6c3a43eefe836a53ae0"
+        }
+      ],
+      "stats": {
+        "total": 78,
+        "additions": 37,
+        "deletions": 41
+      },
+      "files": [
+        {
+          "sha": "50c7ec389a3075a252438f6be25cb627abf8b645",
+          "filename": "composer.lock",
+          "status": "modified",
+          "additions": 37,
+          "deletions": 41,
+          "changes": 78,
+          "blob_url": "https://github.com/devboard/github-object-api-facade-bundle/blob/ec994accc44afbaf469e8839fe6e31f918c0119d/composer.lock",
+          "raw_url": "https://github.com/devboard/github-object-api-facade-bundle/raw/ec994accc44afbaf469e8839fe6e31f918c0119d/composer.lock",
+          "contents_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/contents/composer.lock?ref=ec994accc44afbaf469e8839fe6e31f918c0119d",
+          "patch": "@@ -4,27 +4,27 @@\n         \"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file\",\n         \"This file is @generated automatically\"\n     ],\n-    \"hash\": \"31a194400c42ce94fcb143dd0d1bed62\",\n-    \"content-hash\": \"cb614348abddeba8d8c91e099bef486b\",\n+    \"hash\": \"d2d05d1b6eeebfcfe476473aa3c26619\",\n+    \"content-hash\": \"144b1ea6caeea1b4171c118ec574205a\",\n     \"packages\": [\n         {\n             \"name\": \"devboard/github-api-facade\",\n-            \"version\": \"v0.3.0\",\n+            \"version\": \"v0.4.0\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-api-facade.git\",\n-                \"reference\": \"8f486ff1231299a0d98aaadb85891445382fb07f\"\n+                \"reference\": \"3e6bf1026505ab8fc2348d1255794bccf180c037\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-api-facade/zipball/8f486ff1231299a0d98aaadb85891445382fb07f\",\n-                \"reference\": \"8f486ff1231299a0d98aaadb85891445382fb07f\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-api-facade/zipball/3e6bf1026505ab8fc2348d1255794bccf180c037\",\n+                \"reference\": \"3e6bf1026505ab8fc2348d1255794bccf180c037\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n-                \"devboard/github-core\": \"^0.3\",\n+                \"devboard/github-core\": \"^0.4\",\n                 \"knplabs/github-api\": \"~1.4\",\n-                \"php\": \">=5.3.9\"\n+                \"php\": \">=7.0.0\"\n             },\n             \"require-dev\": {\n                 \"behat/behat\": \"~3.0\",\n@@ -38,12 +38,11 @@\n                 \"mockery/mockery\": \"~0.9\",\n                 \"phpmd/phpmd\": \"~2.1\",\n                 \"phpspec/phpspec\": \"~2.0\",\n-                \"phpunit/phpunit\": \"~4\",\n+                \"phpunit/phpunit\": \"~5\",\n                 \"rmiller/behat-spec\": \"~0.2\",\n                 \"rmiller/exemplify-extension\": \"~0.2\",\n                 \"satooshi/php-coveralls\": \"^1\",\n-                \"squizlabs/php_codesniffer\": \"2.*\",\n-                \"vinkla/climb\": \"^0.8.0\"\n+                \"squizlabs/php_codesniffer\": \"2.*\"\n             },\n             \"type\": \"project\",\n             \"autoload\": {\n@@ -58,25 +57,25 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github API facade\",\n-            \"time\": \"2016-03-08 19:01:07\"\n+            \"time\": \"2016-05-07 17:35:51\"\n         },\n         {\n             \"name\": \"devboard/github-api-facade-bundle\",\n-            \"version\": \"v0.3.0\",\n+            \"version\": \"v0.4.0\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-api-facade-bundle.git\",\n-                \"reference\": \"e4ef363aa05ce8222b5375e49a38f4feed777dac\"\n+                \"reference\": \"376aa894df011f71aec3c60b3dfbb7875cfb2572\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-api-facade-bundle/zipball/e4ef363aa05ce8222b5375e49a38f4feed777dac\",\n-                \"reference\": \"e4ef363aa05ce8222b5375e49a38f4feed777dac\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-api-facade-bundle/zipball/376aa894df011f71aec3c60b3dfbb7875cfb2572\",\n+                \"reference\": \"376aa894df011f71aec3c60b3dfbb7875cfb2572\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n-                \"devboard/github-api-facade\": \"^0.3\",\n-                \"php\": \">=5.3.9\"\n+                \"devboard/github-api-facade\": \"^0.4\",\n+                \"php\": \">=7.0.0\"\n             },\n             \"require-dev\": {\n                 \"behat/behat\": \"~3.0\",\n@@ -90,12 +89,11 @@\n                 \"mockery/mockery\": \"~0.9\",\n                 \"phpmd/phpmd\": \"~2.1\",\n                 \"phpspec/phpspec\": \"~2.0\",\n-                \"phpunit/phpunit\": \"~4\",\n+                \"phpunit/phpunit\": \"~5\",\n                 \"rmiller/behat-spec\": \"~0.2\",\n                 \"rmiller/exemplify-extension\": \"~0.2\",\n                 \"satooshi/php-coveralls\": \"^1\",\n-                \"squizlabs/php_codesniffer\": \"2.*\",\n-                \"vinkla/climb\": \"^0.8.0\"\n+                \"squizlabs/php_codesniffer\": \"2.*\"\n             },\n             \"type\": \"project\",\n             \"autoload\": {\n@@ -110,24 +108,24 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github API facade bundle\",\n-            \"time\": \"2016-03-08 19:07:37\"\n+            \"time\": \"2016-05-07 17:43:59\"\n         },\n         {\n             \"name\": \"devboard/github-core\",\n-            \"version\": \"v0.3.0\",\n+            \"version\": \"v0.4.0\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-core.git\",\n-                \"reference\": \"f497152953a24c01ed8b047bf945089b2b007af4\"\n+                \"reference\": \"e447f737cb1c620b52197639cc98b72015dcb08c\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-core/zipball/f497152953a24c01ed8b047bf945089b2b007af4\",\n-                \"reference\": \"f497152953a24c01ed8b047bf945089b2b007af4\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-core/zipball/e447f737cb1c620b52197639cc98b72015dcb08c\",\n+                \"reference\": \"e447f737cb1c620b52197639cc98b72015dcb08c\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n-                \"php\": \">=5.3.9\"\n+                \"php\": \">=7.0.0\"\n             },\n             \"require-dev\": {\n                 \"ciaranmcnulty/phpspec-typehintedmethods\": \"~1.1\",\n@@ -138,11 +136,10 @@\n                 \"mockery/mockery\": \"~0.9\",\n                 \"phpmd/phpmd\": \"~2.1\",\n                 \"phpspec/phpspec\": \"~2.0\",\n-                \"phpunit/phpunit\": \"~4\",\n+                \"phpunit/phpunit\": \"~5\",\n                 \"rmiller/exemplify-extension\": \"~0.2\",\n                 \"satooshi/php-coveralls\": \"^1\",\n-                \"squizlabs/php_codesniffer\": \"2.*\",\n-                \"vinkla/climb\": \"^0.8.0\"\n+                \"squizlabs/php_codesniffer\": \"2.*\"\n             },\n             \"type\": \"project\",\n             \"autoload\": {\n@@ -157,26 +154,26 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github Core\",\n-            \"time\": \"2016-03-08 17:05:19\"\n+            \"time\": \"2016-05-07 17:23:53\"\n         },\n         {\n             \"name\": \"devboard/github-object-api-facade\",\n-            \"version\": \"v0.3.1\",\n+            \"version\": \"v0.4.0\",\n             \"source\": {\n                 \"type\": \"git\",\n                 \"url\": \"https://github.com/devboard/github-object-api-facade.git\",\n-                \"reference\": \"ccf3033aacf1eac8a46befadb6df215935cb56b0\"\n+                \"reference\": \"3e5383a1353ef200f6b6f5cd7416cdc9213c35a7\"\n             },\n             \"dist\": {\n                 \"type\": \"zip\",\n-                \"url\": \"https://api.github.com/repos/devboard/github-object-api-facade/zipball/ccf3033aacf1eac8a46befadb6df215935cb56b0\",\n-                \"reference\": \"ccf3033aacf1eac8a46befadb6df215935cb56b0\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-object-api-facade/zipball/3e5383a1353ef200f6b6f5cd7416cdc9213c35a7\",\n+                \"reference\": \"3e5383a1353ef200f6b6f5cd7416cdc9213c35a7\",\n                 \"shasum\": \"\"\n             },\n             \"require\": {\n-                \"devboard/github-api-facade\": \"^0.3\",\n+                \"devboard/github-api-facade\": \"^0.4\",\n                 \"knplabs/github-api\": \"~1.4\",\n-                \"php\": \">=5.3.9\"\n+                \"php\": \">=7.0.0\"\n             },\n             \"require-dev\": {\n                 \"behat/behat\": \"~3.0\",\n@@ -190,12 +187,11 @@\n                 \"mockery/mockery\": \"~0.9\",\n                 \"phpmd/phpmd\": \"~2.1\",\n                 \"phpspec/phpspec\": \"~2.0\",\n-                \"phpunit/phpunit\": \"~4\",\n+                \"phpunit/phpunit\": \"~5\",\n                 \"rmiller/behat-spec\": \"~0.2\",\n                 \"rmiller/exemplify-extension\": \"~0.2\",\n                 \"satooshi/php-coveralls\": \"^1\",\n-                \"squizlabs/php_codesniffer\": \"2.*\",\n-                \"vinkla/climb\": \"^0.8.0\"\n+                \"squizlabs/php_codesniffer\": \"2.*\"\n             },\n             \"type\": \"project\",\n             \"autoload\": {\n@@ -210,7 +206,7 @@\n                 \"proprietary\"\n             ],\n             \"description\": \"Github Object API facade\",\n-            \"time\": \"2016-03-08 20:26:05\"\n+            \"time\": \"2016-05-07 17:49:12\"\n         },\n         {\n             \"name\": \"guzzle/guzzle\","
+        }
+      ]
+    }
+  },
+  {
+    "name": "v0.3.1",
+    "zipball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/zipball/v0.3.1",
+    "tarball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/tarball/v0.3.1",
+    "commit": {
+      "sha": "8f37f89160c682b846f3d66e1abf2fc5b515bd11",
+      "commit": {
+        "author": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-03-08T20:12:07Z"
+        },
+        "committer": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-03-08T20:12:07Z"
+        },
+        "message": "Updated composer.lock for missing github-api-facade-bundle",
+        "tree": {
+          "sha": "7fa157b477c77e477feced20096beb398ca61492",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/trees/7fa157b477c77e477feced20096beb398ca61492"
+        },
+        "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/commits/8f37f89160c682b846f3d66e1abf2fc5b515bd11",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/8f37f89160c682b846f3d66e1abf2fc5b515bd11",
+      "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/8f37f89160c682b846f3d66e1abf2fc5b515bd11",
+      "comments_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/8f37f89160c682b846f3d66e1abf2fc5b515bd11/comments",
+      "author": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6e36878a1e56fa895f590dc54c4983d176837e4e",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/6e36878a1e56fa895f590dc54c4983d176837e4e",
+          "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/6e36878a1e56fa895f590dc54c4983d176837e4e"
+        }
+      ],
+      "stats": {
+        "total": 56,
+        "additions": 54,
+        "deletions": 2
+      },
+      "files": [
+        {
+          "sha": "4a55bd01802931407be79ead63df25f0aa0f5272",
+          "filename": "composer.lock",
+          "status": "modified",
+          "additions": 54,
+          "deletions": 2,
+          "changes": 56,
+          "blob_url": "https://github.com/devboard/github-object-api-facade-bundle/blob/8f37f89160c682b846f3d66e1abf2fc5b515bd11/composer.lock",
+          "raw_url": "https://github.com/devboard/github-object-api-facade-bundle/raw/8f37f89160c682b846f3d66e1abf2fc5b515bd11/composer.lock",
+          "contents_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/contents/composer.lock?ref=8f37f89160c682b846f3d66e1abf2fc5b515bd11",
+          "patch": "@@ -4,8 +4,8 @@\n         \"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file\",\n         \"This file is @generated automatically\"\n     ],\n-    \"hash\": \"32cf5746ccc3bbf2fa61a19b2bcfdcde\",\n-    \"content-hash\": \"67b885a4fc16e0903f060fe6c660757d\",\n+    \"hash\": \"6d1240702751e303067c79e8b6aec0d1\",\n+    \"content-hash\": \"fe4fea4ead5aad5098b57e831bff89f9\",\n     \"packages\": [\n         {\n             \"name\": \"devboard/github-api-facade\",\n@@ -61,6 +61,58 @@\n             \"time\": \"2016-03-08 19:01:07\"\n         },\n         {\n+            \"name\": \"devboard/github-api-facade-bundle\",\n+            \"version\": \"v0.3.0\",\n+            \"source\": {\n+                \"type\": \"git\",\n+                \"url\": \"https://github.com/devboard/github-api-facade-bundle.git\",\n+                \"reference\": \"e4ef363aa05ce8222b5375e49a38f4feed777dac\"\n+            },\n+            \"dist\": {\n+                \"type\": \"zip\",\n+                \"url\": \"https://api.github.com/repos/devboard/github-api-facade-bundle/zipball/e4ef363aa05ce8222b5375e49a38f4feed777dac\",\n+                \"reference\": \"e4ef363aa05ce8222b5375e49a38f4feed777dac\",\n+                \"shasum\": \"\"\n+            },\n+            \"require\": {\n+                \"devboard/github-api-facade\": \"^0.3\",\n+                \"php\": \">=5.3.9\"\n+            },\n+            \"require-dev\": {\n+                \"behat/behat\": \"~3.0\",\n+                \"behat/mink\": \"~1.6\",\n+                \"behat/mink-extension\": \"~2.0\",\n+                \"ciaranmcnulty/phpspec-typehintedmethods\": \"~1.1\",\n+                \"codeclimate/php-test-reporter\": \"^0.3\",\n+                \"coduo/phpspec-data-provider-extension\": \"^1.0\",\n+                \"fabpot/php-cs-fixer\": \"~1.5\",\n+                \"henrikbjorn/phpspec-code-coverage\": \"~2.0\",\n+                \"mockery/mockery\": \"~0.9\",\n+                \"phpmd/phpmd\": \"~2.1\",\n+                \"phpspec/phpspec\": \"~2.0\",\n+                \"phpunit/phpunit\": \"~4\",\n+                \"rmiller/behat-spec\": \"~0.2\",\n+                \"rmiller/exemplify-extension\": \"~0.2\",\n+                \"satooshi/php-coveralls\": \"^1\",\n+                \"squizlabs/php_codesniffer\": \"2.*\",\n+                \"vinkla/climb\": \"^0.8.0\"\n+            },\n+            \"type\": \"project\",\n+            \"autoload\": {\n+                \"psr-4\": {\n+                    \"DevBoardLib\\\\GithubApiFacadeBundle\\\\\": \"src/\",\n+                    \"spec\\\\DevBoardLib\\\\GithubApiFacadeBundle\\\\\": \"spec/\",\n+                    \"tests\\\\DevBoardLib\\\\GithubApiFacadeBundle\\\\\": \"tests/\"\n+                }\n+            },\n+            \"notification-url\": \"https://packagist.org/downloads/\",\n+            \"license\": [\n+                \"proprietary\"\n+            ],\n+            \"description\": \"Github API facade bundle\",\n+            \"time\": \"2016-03-08 19:07:37\"\n+        },\n+        {\n             \"name\": \"devboard/github-core\",\n             \"version\": \"v0.3.0\",\n             \"source\": {"
+        }
+      ]
+    }
+  },
+  {
+    "name": "v0.3.0",
+    "zipball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/zipball/v0.3.0",
+    "tarball_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/tarball/v0.3.0",
+    "commit": {
+      "sha": "60eb594b5cfa14b0b6cd55aa29db6588edd3fa54",
+      "commit": {
+        "author": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-03-08T20:01:28Z"
+        },
+        "committer": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-03-08T20:01:44Z"
+        },
+        "message": "Added composer.lock",
+        "tree": {
+          "sha": "5b33e1309a6b65c651e32cf59860dccd32888cd7",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/trees/5b33e1309a6b65c651e32cf59860dccd32888cd7"
+        },
+        "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/git/commits/60eb594b5cfa14b0b6cd55aa29db6588edd3fa54",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/60eb594b5cfa14b0b6cd55aa29db6588edd3fa54",
+      "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/60eb594b5cfa14b0b6cd55aa29db6588edd3fa54",
+      "comments_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/60eb594b5cfa14b0b6cd55aa29db6588edd3fa54/comments",
+      "author": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "08bedf07691930112e8b5e7ab0f6467a4355abfd",
+          "url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/commits/08bedf07691930112e8b5e7ab0f6467a4355abfd",
+          "html_url": "https://github.com/devboard/github-object-api-facade-bundle/commit/08bedf07691930112e8b5e7ab0f6467a4355abfd"
+        }
+      ],
+      "stats": {
+        "total": 3671,
+        "additions": 3671,
+        "deletions": 0
+      },
+      "files": [
+        {
+          "sha": "f4e17874b40d11917984483e0bf2fb38e70d5987",
+          "filename": "composer.lock",
+          "status": "added",
+          "additions": 3671,
+          "deletions": 0,
+          "changes": 3671,
+          "blob_url": "https://github.com/devboard/github-object-api-facade-bundle/blob/60eb594b5cfa14b0b6cd55aa29db6588edd3fa54/composer.lock",
+          "raw_url": "https://github.com/devboard/github-object-api-facade-bundle/raw/60eb594b5cfa14b0b6cd55aa29db6588edd3fa54/composer.lock",
+          "contents_url": "https://api.github.com/repos/devboard/github-object-api-facade-bundle/contents/composer.lock?ref=60eb594b5cfa14b0b6cd55aa29db6588edd3fa54"
+        }
+      ]
+    }
+  }
+]

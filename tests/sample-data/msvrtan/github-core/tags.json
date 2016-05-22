@@ -1,0 +1,120 @@
+[
+  {
+    "name": "v0.4.0",
+    "zipball_url": "https://api.github.com/repos/msvrtan/github-core/zipball/v0.4.0",
+    "tarball_url": "https://api.github.com/repos/msvrtan/github-core/tarball/v0.4.0",
+    "commit": {
+      "sha": "e447f737cb1c620b52197639cc98b72015dcb08c",
+      "commit": {
+        "author": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-07T17:23:53Z"
+        },
+        "committer": {
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-05-07T17:23:53Z"
+        },
+        "message": "Refactoring php-cs-fixer calls",
+        "tree": {
+          "sha": "f704d1702a0ffda814cd1018dd93ebb7430c6983",
+          "url": "https://api.github.com/repos/msvrtan/github-core/git/trees/f704d1702a0ffda814cd1018dd93ebb7430c6983"
+        },
+        "url": "https://api.github.com/repos/msvrtan/github-core/git/commits/e447f737cb1c620b52197639cc98b72015dcb08c",
+        "comment_count": 0
+      },
+      "url": "https://api.github.com/repos/msvrtan/github-core/commits/e447f737cb1c620b52197639cc98b72015dcb08c",
+      "html_url": "https://github.com/msvrtan/github-core/commit/e447f737cb1c620b52197639cc98b72015dcb08c",
+      "comments_url": "https://api.github.com/repos/msvrtan/github-core/commits/e447f737cb1c620b52197639cc98b72015dcb08c/comments",
+      "author": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bcc8aa123592af37cd41159d5a086eff9902bafd",
+          "url": "https://api.github.com/repos/msvrtan/github-core/commits/bcc8aa123592af37cd41159d5a086eff9902bafd",
+          "html_url": "https://github.com/msvrtan/github-core/commit/bcc8aa123592af37cd41159d5a086eff9902bafd"
+        }
+      ],
+      "stats": {
+        "total": 40,
+        "additions": 4,
+        "deletions": 36
+      },
+      "files": [
+        {
+          "sha": "e4951678d6ff308ec402e837c818c6b742eead9d",
+          "filename": ".travis.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "changes": 2,
+          "blob_url": "https://github.com/msvrtan/github-core/blob/e447f737cb1c620b52197639cc98b72015dcb08c/.travis.yml",
+          "raw_url": "https://github.com/msvrtan/github-core/raw/e447f737cb1c620b52197639cc98b72015dcb08c/.travis.yml",
+          "contents_url": "https://api.github.com/repos/msvrtan/github-core/contents/.travis.yml?ref=e447f737cb1c620b52197639cc98b72015dcb08c",
+          "patch": "@@ -31,7 +31,7 @@ script:\n   - if [[ $coverage == 'phpspec' ]]; then sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini; fi;\n   - ./bin/phpspec run --no-interaction\n   - if [[ $coverage == 'phpspec' ]]; then sed -i 's/^/;/' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini; fi;\n-  - ant php-cs-fixer-check-task\n+  - ant php-cs-fixer-check\n   - ant phpcs-task\n   - ant phpmd-task\n "
+        },
+        {
+          "sha": "8842960dee9d579563cc3bcc4c4373f8b3ceced8",
+          "filename": "build.xml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 34,
+          "changes": 36,
+          "blob_url": "https://github.com/msvrtan/github-core/blob/e447f737cb1c620b52197639cc98b72015dcb08c/build.xml",
+          "raw_url": "https://github.com/msvrtan/github-core/raw/e447f737cb1c620b52197639cc98b72015dcb08c/build.xml",
+          "contents_url": "https://api.github.com/repos/msvrtan/github-core/contents/build.xml?ref=e447f737cb1c620b52197639cc98b72015dcb08c",
+          "patch": "@@ -10,10 +10,10 @@\n     </target>\n \n     <target name=\"fix-codestandards\"\n-            depends=\"php-cs-fixer-fix-task,check-codestandards\">\n+            depends=\"php-cs-fixer-fix,check-codestandards\">\n     </target>\n     <target name=\"check-codestandards\"\n-            depends=\"php-cs-fixer-check-task,phpmd-task,phpcs-task\">\n+            depends=\"php-cs-fixer-check,phpmd-task,phpcs-task\">\n     </target>\n \n     <target name=\"phpspec\" description=\"\">\n@@ -50,32 +50,6 @@\n             </condition>\n         </fail>\n     </target>\n-    <target name=\"php-cs-fixer-fix-task\" description=\"Run php-cs-fixer fix in parallel\">\n-         <parallel failonany=\"true\" threadCount=\"2\">\n-            <antcall target=\"php-cs-fixer-fix\">\n-            \t<param name=\"path\" value=\"src\"/>\n-            </antcall>\n-            <antcall target=\"php-cs-fixer-fix\">\n-            \t<param name=\"path\" value=\"spec\"/>\n-            </antcall>\n-            <antcall target=\"php-cs-fixer-fix\">\n-                <param name=\"path\" value=\"tests\"/>\n-            </antcall>\n-        </parallel>\n-    </target>\n-    <target name=\"php-cs-fixer-check-task\" description=\"Run php-cs-fixer dry-run in parallel\">\n-         <parallel failonany=\"true\" threadCount=\"2\">\n-            <antcall target=\"php-cs-fixer-check\">\n-            \t<param name=\"path\" value=\"src\"/>\n-            </antcall>\n-            <antcall target=\"php-cs-fixer-check\">\n-            \t<param name=\"path\" value=\"spec\"/>\n-            </antcall>\n-            <antcall target=\"php-cs-fixer-check\">\n-                <param name=\"path\" value=\"tests\"/>\n-            </antcall>\n-        </parallel>\n-    </target>\n     <target name=\"phpmd-task\" description=\"Run phpmd in parallel\">\n          <parallel failonany=\"true\" threadCount=\"2\">\n             <antcall target=\"phpmd\">\n@@ -100,19 +74,13 @@\n     <target name=\"php-cs-fixer-fix\" description=\"\">\n         <exec executable=\"bin/php-cs-fixer\" failonerror=\"false\">\n             <arg value=\"fix\" />\n-            <arg path=\"${basedir}/${path}\" />\n-            <arg value=\"--level=symfony\" />\n-            <arg value=\"--fixers=short_array_syntax,align_double_arrow,align_equals,no_blank_lines_before_namespace,ordered_use,phpdoc_order,-unused_use,-empty_return\" />\n         </exec>\n     </target>\n     <target name=\"php-cs-fixer-check\" description=\"\" >\n         <exec executable=\"bin/php-cs-fixer\" failonerror=\"true\">\n             <arg value=\"fix\" />\n-            <arg path=\"${basedir}/${path}\" />\n             <arg value=\"--dry-run\" />\n             <arg value=\"--diff\" />\n-            <arg value=\"--level=symfony\" />\n-            <arg value=\"--fixers=short_array_syntax,align_double_arrow,align_equals,no_blank_lines_before_namespace,ordered_use,phpdoc_order,-unused_use,-empty_return\" />\n         </exec>\n     </target>\n     <target name=\"phpmd\" description=\"\">"
+        },
+        {
+          "sha": "eb21ac673579e9df43bdab08710a4b1608f2ab8f",
+          "filename": "circle.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "changes": 2,
+          "blob_url": "https://github.com/msvrtan/github-core/blob/e447f737cb1c620b52197639cc98b72015dcb08c/circle.yml",
+          "raw_url": "https://github.com/msvrtan/github-core/raw/e447f737cb1c620b52197639cc98b72015dcb08c/circle.yml",
+          "contents_url": "https://api.github.com/repos/msvrtan/github-core/contents/circle.yml?ref=e447f737cb1c620b52197639cc98b72015dcb08c",
+          "patch": "@@ -15,6 +15,6 @@ test:\n   override:\n     - php -d 'xdebug.max_nesting_level=500' bin/phpunit\n     - ./bin/phpspec run --no-interaction\n-    - ant php-cs-fixer-check-task\n+    - ant php-cs-fixer-check\n     - ant phpcs-task\n     - ant phpmd-task"
+        }
+      ]
+    }
+  }
+]
