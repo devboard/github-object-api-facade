@@ -85,6 +85,11 @@
   "open_issues": 7,
   "watchers": 0,
   "default_branch": "master",
+  "permissions": {
+    "admin": true,
+    "push": true,
+    "pull": true
+  },
   "organization": {
     "login": "devboard",
     "id": 13396338,

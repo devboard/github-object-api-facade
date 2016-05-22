@@ -4,68 +4,92 @@
     "zipball_url": "https://api.github.com/repos/devboard/test-hitman/zipball/tag1",
     "tarball_url": "https://api.github.com/repos/devboard/test-hitman/tarball/tag1",
     "commit": {
-      "sha": "db911bd3a3dd8bb2ad9eccbcb0a396595a51491d",
+      "sha": "412d13a93811b370c23dab6752eec0f9d362b244",
       "commit": {
         "author": {
-          "name": "devboard-john",
-          "email": "devboard-john@users.noreply.github.com",
-          "date": "2015-08-21T19:25:38Z"
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-01-06T13:56:00Z"
         },
         "committer": {
-          "name": "devboard-john",
-          "email": "devboard-john@users.noreply.github.com",
-          "date": "2015-08-21T19:25:38Z"
+          "name": "Miro Svrtan",
+          "email": "miro@mirosvrtan.me",
+          "date": "2016-01-06T13:56:03Z"
         },
-        "message": "Initial commit",
+        "message": "z1",
         "tree": {
-          "sha": "a8129e3b24dc36c1b001d53d776ee8c1ad5bf1bf",
-          "url": "https://api.github.com/repos/devboard/test-hitman/git/trees/a8129e3b24dc36c1b001d53d776ee8c1ad5bf1bf"
+          "sha": "46d0d56f40c57dac67fd2281a821dcf78bf5c96c",
+          "url": "https://api.github.com/repos/devboard/test-hitman/git/trees/46d0d56f40c57dac67fd2281a821dcf78bf5c96c"
         },
-        "url": "https://api.github.com/repos/devboard/test-hitman/git/commits/db911bd3a3dd8bb2ad9eccbcb0a396595a51491d",
+        "url": "https://api.github.com/repos/devboard/test-hitman/git/commits/412d13a93811b370c23dab6752eec0f9d362b244",
         "comment_count": 0
       },
-      "url": "https://api.github.com/repos/devboard/test-hitman/commits/db911bd3a3dd8bb2ad9eccbcb0a396595a51491d",
-      "html_url": "https://github.com/devboard/test-hitman/commit/db911bd3a3dd8bb2ad9eccbcb0a396595a51491d",
-      "comments_url": "https://api.github.com/repos/devboard/test-hitman/commits/db911bd3a3dd8bb2ad9eccbcb0a396595a51491d/comments",
+      "url": "https://api.github.com/repos/devboard/test-hitman/commits/412d13a93811b370c23dab6752eec0f9d362b244",
+      "html_url": "https://github.com/devboard/test-hitman/commit/412d13a93811b370c23dab6752eec0f9d362b244",
+      "comments_url": "https://api.github.com/repos/devboard/test-hitman/commits/412d13a93811b370c23dab6752eec0f9d362b244/comments",
       "author": {
-        "login": "devboard-john",
-        "id": 13906273,
-        "avatar_url": "https://avatars.githubusercontent.com/u/13906273?v=3",
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
         "gravatar_id": "",
-        "url": "https://api.github.com/users/devboard-john",
-        "html_url": "https://github.com/devboard-john",
-        "followers_url": "https://api.github.com/users/devboard-john/followers",
-        "following_url": "https://api.github.com/users/devboard-john/following{/other_user}",
-        "gists_url": "https://api.github.com/users/devboard-john/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/devboard-john/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/devboard-john/subscriptions",
-        "organizations_url": "https://api.github.com/users/devboard-john/orgs",
-        "repos_url": "https://api.github.com/users/devboard-john/repos",
-        "events_url": "https://api.github.com/users/devboard-john/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/devboard-john/received_events",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
         "type": "User",
         "site_admin": false
       },
       "committer": {
-        "login": "devboard-john",
-        "id": 13906273,
-        "avatar_url": "https://avatars.githubusercontent.com/u/13906273?v=3",
+        "login": "msvrtan",
+        "id": 1780572,
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
         "gravatar_id": "",
-        "url": "https://api.github.com/users/devboard-john",
-        "html_url": "https://github.com/devboard-john",
-        "followers_url": "https://api.github.com/users/devboard-john/followers",
-        "following_url": "https://api.github.com/users/devboard-john/following{/other_user}",
-        "gists_url": "https://api.github.com/users/devboard-john/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/devboard-john/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/devboard-john/subscriptions",
-        "organizations_url": "https://api.github.com/users/devboard-john/orgs",
-        "repos_url": "https://api.github.com/users/devboard-john/repos",
-        "events_url": "https://api.github.com/users/devboard-john/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/devboard-john/received_events",
+        "url": "https://api.github.com/users/msvrtan",
+        "html_url": "https://github.com/msvrtan",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
         "type": "User",
         "site_admin": false
       },
       "parents": [
+        {
+          "sha": "4e03844e229c6773159ae638bb5719835331bbb0",
+          "url": "https://api.github.com/repos/devboard/test-hitman/commits/4e03844e229c6773159ae638bb5719835331bbb0",
+          "html_url": "https://github.com/devboard/test-hitman/commit/4e03844e229c6773159ae638bb5719835331bbb0"
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "additions": 1,
+        "deletions": 0
+      },
+      "files": [
+        {
+          "sha": "f05876a71871651c9ae1f80f005ea2a90d34cf0a",
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0,
+          "changes": 1,
+          "blob_url": "https://github.com/devboard/test-hitman/blob/412d13a93811b370c23dab6752eec0f9d362b244/README.md",
+          "raw_url": "https://github.com/devboard/test-hitman/raw/412d13a93811b370c23dab6752eec0f9d362b244/README.md",
+          "contents_url": "https://api.github.com/repos/devboard/test-hitman/contents/README.md?ref=412d13a93811b370c23dab6752eec0f9d362b244",
+          "patch": "@@ -5,3 +5,4 @@ Test msg32\n 2\n 2\n 2\n+3\n\\ No newline at end of file"
+        }
       ]
     }
   }

@@ -63,8 +63,7 @@
         "type": "User",
         "site_admin": false
       },
-      "parents": [
-      ]
+      "parents": []
     },
     "_links": {
       "self": "https://api.github.com/repos/devboard/test-hitman/branches/master",
