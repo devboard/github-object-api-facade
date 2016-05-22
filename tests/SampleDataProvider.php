@@ -98,7 +98,7 @@ class SampleDataProvider
      */
     public function getAllPullRequests()
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/pull_requests.json');
+        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/pullrequests.json');
 
         return json_decode($content, true);
     }
