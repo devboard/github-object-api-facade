@@ -7,12 +7,24 @@ namespace tests\DevBoardLib\GithubObjectApiFacade;
  */
 class SampleDataProvider
 {
+    const DEFAULT_REPO       = 'devboard/test-hitman';
+    const DEFAULT_BRANCH     = 'master';
+    const DEFAULT_COMMIT_SHA = 'db911bd3a3dd8bb2ad9eccbcb0a396595a51491d';
+
+    /**
+     * @return array
+     */
+    public function getRepos()
+    {
+        return $this->getMyRepositoriesAll();
+    }
+
     /**
      * @return mixed
      */
-    public function getRepoDetails()
+    public function getRepoDetails($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/repo-details.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/repo-details.json');
 
         return json_decode($content, true);
     }
@@ -20,9 +32,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getBranch()
+    public function getBranch($fullName = self::DEFAULT_REPO, $branchName = self::DEFAULT_BRANCH)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/branch-master.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/branch-'.$branchName.'.json');
 
         return json_decode($content, true);
     }
@@ -30,9 +42,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllBranches()
+    public function getAllBranches($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/branches.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/branches.json');
 
         return json_decode($content, true);
     }
@@ -40,9 +52,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllBranchNames()
+    public function getAllBranchNames($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/branchnames.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/branchnames.json');
 
         return json_decode($content, true);
     }
@@ -50,9 +62,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllTagNames()
+    public function getAllTagNames($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/tags.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/tags.json');
 
         return json_decode($content, true);
     }
@@ -60,10 +72,10 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getCommit()
+    public function getCommit($fullName = self::DEFAULT_REPO, $commitSha = self::DEFAULT_COMMIT_SHA)
     {
         $content = file_get_contents(
-            __DIR__.'/sample-data/devboard/test-hitman/commit-db911bd3a3dd8bb2ad9eccbcb0a396595a51491d.json'
+            __DIR__.'/sample-data/'.$fullName.'/commit-'.$commitSha.'.json'
         );
 
         return json_decode($content, true);
@@ -72,10 +84,10 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getCommitStatus()
+    public function getCommitStatus($fullName = self::DEFAULT_REPO, $commitSha = self::DEFAULT_COMMIT_SHA)
     {
         $content = file_get_contents(
-            __DIR__.'/sample-data/devboard/test-hitman/commit_status-db911bd3a3dd8bb2ad9eccbcb0a396595a51491d.json'
+            __DIR__.'/sample-data/'.$fullName.'/commit_status-'.$commitSha.'.json'
         );
 
         return json_decode($content, true);
@@ -84,10 +96,10 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getCommitStatuses()
+    public function getCommitStatuses($fullName = self::DEFAULT_REPO, $commitSha = self::DEFAULT_COMMIT_SHA)
     {
         $content = file_get_contents(
-            __DIR__.'/sample-data/devboard/test-hitman/commit_statuses-db911bd3a3dd8bb2ad9eccbcb0a396595a51491d.json'
+            __DIR__.'/sample-data/'.$fullName.'/commit_statuses-'.$commitSha.'.json'
         );
 
         return json_decode($content, true);
@@ -96,9 +108,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllPullRequests()
+    public function getAllPullRequests($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/pullrequests.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/pullrequests.json');
 
         return json_decode($content, true);
     }
@@ -106,9 +118,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllMilestones()
+    public function getAllMilestones($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/milestones.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/milestones.json');
 
         return json_decode($content, true);
     }
@@ -116,9 +128,9 @@ class SampleDataProvider
     /**
      * @return mixed
      */
-    public function getAllIssues()
+    public function getAllIssues($fullName = self::DEFAULT_REPO)
     {
-        $content = file_get_contents(__DIR__.'/sample-data/devboard/test-hitman/issues.json');
+        $content = file_get_contents(__DIR__.'/sample-data/'.$fullName.'/issues.json');
 
         return json_decode($content, true);
     }
