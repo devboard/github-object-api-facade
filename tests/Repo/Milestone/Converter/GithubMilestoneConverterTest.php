@@ -4,7 +4,7 @@ namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Milestone\Converter;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\Milestone\Converter\GithubMilestoneConverter;
 use Mockery as m;
-use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
+use tests\DevBoardLib\GithubObjectApiFacade\JsonSampleDataProvider;
 
 /**
  * Class GithubMilestoneConverterTest.
@@ -51,10 +51,10 @@ class GithubMilestoneConverterTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return SampleDataProvider
+     * @return JsonSampleDataProvider
      */
     protected function getDataProvider()
     {
-        return new SampleDataProvider();
+        return new JsonSampleDataProvider();
     }
 }

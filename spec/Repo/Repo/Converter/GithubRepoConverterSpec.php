@@ -9,7 +9,7 @@ use DevBoardLib\GithubCore\Repo\GithubRepoUpdatedAt;
 use DevBoardLib\GithubCore\User\GithubUserId;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
-use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
+use tests\DevBoardLib\GithubObjectApiFacade\JsonSampleDataProvider;
 
 class GithubRepoConverterSpec extends ObjectBehavior
 {
@@ -174,6 +174,6 @@ class GithubRepoConverterSpec extends ObjectBehavior
 
     protected function getDataProvider()
     {
-        return new SampleDataProvider();
+        return new JsonSampleDataProvider();
     }
 }

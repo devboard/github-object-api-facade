@@ -4,7 +4,7 @@ namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter\GithubRepoConverter;
 use Mockery as m;
-use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
+use tests\DevBoardLib\GithubObjectApiFacade\JsonSampleDataProvider;
 
 /**
  * Class GithubRepoConverterTest.
@@ -47,10 +47,10 @@ class GithubRepoConverterTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return SampleDataProvider
+     * @return JsonSampleDataProvider
      */
     protected function getDataProvider()
     {
-        return new SampleDataProvider();
+        return new JsonSampleDataProvider();
     }
 }

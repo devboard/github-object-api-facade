@@ -6,7 +6,7 @@ use DevBoardLib\GithubCore\Repo\GithubRepo;
 use DevBoardLib\GithubCore\Repo\GithubRepoId;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
-use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
+use tests\DevBoardLib\GithubObjectApiFacade\JsonSampleDataProvider;
 
 class GithubCommitConverterSpec extends ObjectBehavior
 {
@@ -39,6 +39,6 @@ class GithubCommitConverterSpec extends ObjectBehavior
 
     protected function getDataProvider()
     {
-        return new SampleDataProvider();
+        return new JsonSampleDataProvider();
     }
 }

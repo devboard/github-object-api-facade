@@ -6,7 +6,7 @@ use DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter\GithubRepoConverter;
 use DevBoardLib\GithubObjectApiFacade\Repo\SimpleRepoFacade;
 use DevBoardLib\GithubObjectApiFacade\User\SimpleUserFacade;
 use Mockery as m;
-use tests\DevBoardLib\GithubObjectApiFacade\SampleDataProvider;
+use tests\DevBoardLib\GithubObjectApiFacade\JsonSampleDataProvider;
 
 /**
  * Class SimpleRepoFacadeTest.
@@ -45,11 +45,11 @@ class SimpleUserFacadeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return SampleDataProvider
+     * @return JsonSampleDataProvider
      */
     protected function getDataProvider()
     {
-        return new SampleDataProvider();
+        return new JsonSampleDataProvider();
     }
 
     /**

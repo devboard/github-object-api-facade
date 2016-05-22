@@ -3,9 +3,9 @@
 namespace tests\DevBoardLib\GithubObjectApiFacade;
 
 /**
- * Class SampleDataProvider.
+ * Class JsonJsonSampleDataProvider.
  */
-class SampleDataProvider
+class JsonSampleDataProvider
 {
     const DEFAULT_REPO       = 'devboard/test-hitman';
     const DEFAULT_BRANCH     = 'master';
