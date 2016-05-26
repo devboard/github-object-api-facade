@@ -2,6 +2,7 @@
 
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo;
 
+use DevBoardLib\GithubCore\Repo\GithubRepoId;
 use DevBoardLib\GithubObjectApiFacade\Repo\Branch\Converter\GithubBranchConverter;
 use DevBoardLib\GithubObjectApiFacade\Repo\Commit\Converter\GithubCommitConverter;
 use DevBoardLib\GithubObjectApiFacade\Repo\CommitStatus\Converter\GithubCommitStatusConverter;
@@ -227,7 +228,7 @@ class SimpleRepoFacadeTest extends \PHPUnit_Framework_TestCase
     protected function provideTestRepo()
     {
         $repo   = m::mock('DevBoardLib\GithubCore\Repo\GithubRepo');
-        $repoId = m::mock('DevBoardLib\GithubCore\Repo\GithubRepoId');
+        $repoId = new GithubRepoId(123);
 
         $repo->shouldReceive('getId')->andReturn($repoId);
 

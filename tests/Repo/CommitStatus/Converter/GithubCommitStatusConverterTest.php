@@ -2,6 +2,7 @@
 
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\CommitStatus\Converter;
 
+use DevBoardLib\GithubCore\Repo\GithubRepoId;
 use DevBoardLib\GithubObjectApiFacade\Repo\CommitStatus\Converter\GithubCommitStatusConverter;
 use Mockery as m;
 use tests\DevBoardLib\GithubObjectApiFacade\JsonSampleDataProvider;
@@ -84,10 +85,9 @@ class GithubCommitStatusConverterTest extends \PHPUnit_Framework_TestCase
     protected function provideTestRepo()
     {
         $repo   = m::mock('DevBoardLib\GithubCore\Repo\GithubRepo');
-        $repoId = m::mock('DevBoardLib\GithubCore\Repo\GithubRepoId');
+        $repoId = new GithubRepoId(123);
 
         $repo->shouldReceive('getId')->andReturn($repoId);
-        $repoId->shouldReceive('getId')->andReturn(123);
 
         return $repo;
     }
