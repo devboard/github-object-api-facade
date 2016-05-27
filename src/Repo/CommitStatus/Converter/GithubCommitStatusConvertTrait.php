@@ -27,7 +27,7 @@ trait GithubCommitStatusConvertTrait
     protected function convertCommitStatus(array $data)
     {
         return new GithubCommitStatusSource(
-            new GithubCommitStatusId($data['id']),
+            new GithubCommitStatusId((string) $data['id']),
             $this->githubRepo->getId(),
             new GithubCommitId($this->githubRepo->getId(), new GithubCommitSha($data['sha'])),
             ExternalServiceFactory::create($data['context']),
