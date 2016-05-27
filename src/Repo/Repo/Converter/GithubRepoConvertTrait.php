@@ -1,5 +1,6 @@
 <?php
 
+declare (strict_types = 1);
 namespace DevBoardLib\GithubObjectApiFacade\Repo\Repo\Converter;
 
 use DevBoardLib\GithubCore\Repo\GithubRepoCreatedAt;

@@ -1,5 +1,6 @@
 <?php
 
+declare (strict_types = 1);
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter;
 
 use DevBoardLib\GithubObjectApiFacade\Repo\Issue\Converter\GithubIssueConverter;

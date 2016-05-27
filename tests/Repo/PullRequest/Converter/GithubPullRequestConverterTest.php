@@ -1,5 +1,6 @@
 <?php
 
+declare (strict_types = 1);
 namespace tests\DevBoardLib\GithubObjectApiFacade\Repo\PullRequest\Converter;
 
 use DevBoardLib\GithubCore\Repo\GithubRepoId;

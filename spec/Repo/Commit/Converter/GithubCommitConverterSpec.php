@@ -1,5 +1,6 @@
 <?php
 
+declare (strict_types = 1);
 namespace spec\DevBoardLib\GithubObjectApiFacade\Repo\Commit\Converter;
 
 use DevBoardLib\GithubCore\Repo\GithubRepo;
